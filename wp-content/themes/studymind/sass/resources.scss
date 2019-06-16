@@ -1,0 +1,237 @@
+.resource-intro {
+	font-size: (16/1920*100vw);
+	@media all and (max-width: 1250px) {
+		font-size: (16/1250*100vw);
+	}
+	@media all and (max-width: 1000px) {
+		font-size: (16/800*100vw);
+	}
+	@media all and (max-width: 750px) {
+		font-size: (16/750*100vw);
+	}
+	@media all and (max-width: 600px) {
+		font-size: (16/367*100vw);
+	}
+	text-align: center;
+
+	h2 {
+		@include header2();
+		margin-top: (90/1920*100vw);
+	}
+	p {
+		@include description(1.4375em);
+		width: (870/1920*100vw);
+		margin: 0 auto; 
+		@media all and (max-width: 1000px) {
+			text-align: center;
+			width: 80%;
+			margin: 0 auto;
+		}
+		span {
+			color: #ED5D60;
+		}
+	}
+}
+
+.selectors {
+	font-size: (16/1920*100vw);
+	@media all and (max-width: 1250px) {
+		font-size: (16/1250*100vw);
+	}
+	@media all and (max-width: 1000px) {
+		font-size: (16/1000*100vw);
+	}
+	@media all and (max-width: 750px) {
+		font-size: (16/750*100vw);
+	}
+	@media all and (max-width: 600px) {
+		font-size: (16/367*100vw);
+	}
+	text-align: center;
+	margin: (90/1160 * 100vw) 0;
+	.purple-button {
+		background-image: linear-gradient(to right, #662d8e, #90278c);;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: #662D8E;
+		border: none;
+		color: #fff;
+	}
+	.purple-button:hover {
+		background-color: #662D8E;
+		color: #fff;
+	}
+	button {
+		@include clearButtonStyles();
+		width: (257/1920 * 100vw);
+		height: (59/1920*100vw);
+		@media all and (max-width: 1250px) {
+			margin: 0 2vw;
+		}
+
+		@media all and (max-width: 750px) {
+			width: 18vw;
+		}
+		@media all and (max-width: 600px) {
+			width: 35vw;
+			height: 10vw;
+		}
+		background-color: #fff;
+		border-radius: 20.5px;
+		border: 1px solid rgba(112,112,112, 0.2);
+		box-shadow: 0 0 5px rgba(112,112,112, 0.2);
+		padding: 0;
+		color: #811099;
+		font-family: "Poppins", Arial, sans-serif;
+		font-weight: 400;	
+		font-size: 1.5em;
+		line-height: 1.5em;
+		margin-right: (75/1920 * 100vw);
+		cursor: pointer;
+		p {
+			margin: auto 0;
+		}
+
+	}
+	button:hover {
+		background-color: #F6F0F7;
+		color: #64097A;
+	}
+	button:active, button:focus {
+		background-color: #F6F0F7;
+	}
+}
+
+
+.subject-buttons-grid {
+
+	width: (1110/1920 * 100vw);
+	@media all and (max-width: 1250px) {
+		grid-template-columns: 1fr 1fr;
+		font-size: (16/1250*100vw);
+	}
+	@media all and (max-width: 1000px) {
+		width: 65vw;
+		grid-column-gap: (20/1000*100vw);
+	}
+	@media all and (max-width: 750px) {
+		width: 70vw;
+		grid-column-gap: (20/750*100vw);
+	}
+	@media all and (max-width: 600px) {
+		grid-template-columns: 1fr;
+		width: 80vw;
+	}
+
+	margin: 0 auto; 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+
+	grid-row-gap: (40/1160*100vh);
+	grid-auto-flow: row;
+	
+	.item {
+		font-size: (16/1920*100vw);
+		@media all and (max-width: 1250px) {
+			justify-self: center;
+			font-size: (16/1250*100vw);
+		}
+		@media all and (max-width: 1000px) {
+			font-size: (16/1000*100vw);
+		}
+		@media all and (max-width: 750px) {
+			font-size: (16/750*100vw);
+		}
+		@media all and (max-width: 600px) {
+			font-size: (16/367*100vw);
+			width: 100%;
+		}
+		a {
+			text-decoration: none;
+			button {
+				@include clearButtonStyles();
+				display: flex;
+				padding: (20/1160 * 100vh) 0 (20/1160 * 100vh) (25/1920*100vw);
+				box-shadow: 0 0 5px rgba(112,112,112, 0.2);
+				width: (290/1920 * 100vw);
+				@media all and (max-width: 1250px) {
+					width: 20vw;
+				}
+				@media all and (max-width: 1000px) {
+					width: 30vw;
+				}
+				@media all and (max-width: 750px) {
+					width: 35vw;
+				}
+				@media all and (max-width: 600px) {
+					width: 100%;
+					justify-content: center;
+				}
+				
+				img {
+					width: (55/1920 * 100vw);
+					@media all and (max-width: 1000px) {
+						width: (40/1000*100vw);
+						margin: auto (20/1000*100vw);
+					}
+					@media all and (max-width: 1000px) {
+						width: (30/600*100vw);
+					}
+					height: auto;
+					margin: auto (25/1920*100vw) auto 0;
+				}
+				p {
+					font-family: "Poppins", Arial, sans-serif;
+					font-weight: 600;	
+					font-size: 1.1em;
+					line-height: 1.65em;
+					color: #808080;
+					margin: auto 0;
+					text-align: left;
+				}
+			}
+			button.Biology:hover {
+				background-color: #7DDD3E;
+				// p {
+				// 	color: #fff;
+				// }
+			}
+			button.Chemistry:hover {
+				background-color: #3DAAF4;
+			}
+			button.Physics:hover{
+				background-color: #F93866;
+			}
+			button:hover {
+				p {
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+.change {
+	display: none;
+}
+
+.a-level-wrapper {
+	h2 {
+		font-size: 2.75em;
+		font-family: "Poppins", Arial, sans-serif;
+		font-weight: 600;	
+		margin: (90/1920*100vw) auto (60/1920*100vw) auto;
+		text-align: center;
+	}
+	h2:nth-of-type(1) {
+		color: #449334;
+	}
+	h2:nth-of-type(2) {
+		color: #0071B9;
+	}
+	h2:nth-of-type(3) {
+		color: #D1145A;
+	}
+}
+

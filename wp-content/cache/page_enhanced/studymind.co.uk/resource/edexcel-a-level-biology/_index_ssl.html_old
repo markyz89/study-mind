@@ -1,0 +1,2065 @@
+<!doctype html><html
+lang=en-US><head><meta
+charset=UTF-8><meta
+name=viewport content="width=device-width, initial-scale=1"><link rel="stylesheet" id="ao_optimized_gfonts" href="https://fonts.googleapis.com/css?family=Montserrat%3A300%2C400%7CPoppins%3A300%2C400%2C600" /><link
+rel=profile href=https://gmpg.org/xfn/11><link
+type=text/css media=all href=https://studymind.co.uk/wp-content/cache/autoptimize/css/autoptimize_11eda108494dd1fe5cd4dcac30e483fb.css rel=stylesheet><title>Edexcel A-level Biology &#8211; STUDY MIND</title><link
+rel=dns-prefetch href=//cdn.jsdelivr.net><link
+rel=dns-prefetch href=//ajax.googleapis.com><link
+rel=dns-prefetch href=//use.fontawesome.com><link
+rel=dns-prefetch href=//s.w.org><link
+href=https://cdn.shortpixel.ai rel=preconnect><link
+href=https://fonts.gstatic.com crossorigin=anonymous rel=preconnect><link
+rel=alternate type=application/rss+xml title="STUDY MIND &raquo; Feed" href=https://studymind.co.uk/feed/><link
+rel=alternate type=application/rss+xml title="STUDY MIND &raquo; Comments Feed" href=https://studymind.co.uk/comments/feed/>
+ <script data-cfasync=false>var mi_version         = '7.6.0';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-140687678-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-140687678-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}</script>  <script>window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/studymind.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);</script> <style>img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style><link
+rel=stylesheet id=studymind-styles-css  href='https://studymind.co.uk/wp-content/cache/autoptimize/css/autoptimize_single_18b9e35e0e54af3faa9f44419b7bc6a2.css?ver=0.60358400%201560327355' type=text/css media><link
+rel=stylesheet id=font-awesome-css  href='https://use.fontawesome.com/releases/v5.8.1/css/all.css?ver=5.2.1' type=text/css media=all><link
+rel=stylesheet id=fancybox-css-css  href='https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css?ver=5.2.1' type=text/css media=all> <script>var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,exe,js,pdf,ppt,tgz,zip,xls","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/studymind.co.uk","hash_tracking":"false"};</script> <script src='https://studymind.co.uk/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.6.0'></script> <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script> <link
+rel=https://api.w.org/ href=https://studymind.co.uk/wp-json/><link
+rel=EditURI type=application/rsd+xml title=RSD href=https://studymind.co.uk/xmlrpc.php?rsd><link
+rel=wlwmanifest type=application/wlwmanifest+xml href=https://studymind.co.uk/wp-includes/wlwmanifest.xml><link
+rel=prev title='AQA A-Level Chemistry' href=https://studymind.co.uk/resource/aqa-a-level-chemistry/><link
+rel=next title='Edexcel A-level Chemistry' href=https://studymind.co.uk/resource/edexcel-a-level-chemistry/><meta
+name=generator content="WordPress 5.2.1"><link
+rel=canonical href=https://studymind.co.uk/resource/edexcel-a-level-biology/><link
+rel=shortlink href='https://studymind.co.uk/?p=579'><link
+rel=alternate type=application/json+oembed href="https://studymind.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstudymind.co.uk%2Fresource%2Fedexcel-a-level-biology%2F"><link
+rel=alternate type=text/xml+oembed href="https://studymind.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstudymind.co.uk%2Fresource%2Fedexcel-a-level-biology%2F&#038;format=xml"><style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link
+rel=icon href=https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-55x55.png sizes=32x32><link
+rel=icon href=https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo.png sizes=192x192><link
+rel=apple-touch-icon-precomposed href=https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo.png><meta
+name=msapplication-TileImage content=https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo.png></head><body
+class="resource-template-default single single-resource postid-579 wp-custom-logo"><div
+id=page class=site>
+<a
+class="skip-link screen-reader-text" href=#content>Skip to content</a><header
+id=masthead class=site-header><div
+class=site-branding>
+<a
+href=https://studymind.co.uk/ class=custom-logo-link rel=home><noscript><img
+width='111' height='111' src='https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_111/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo.png' class='custom-logo' alt="STUDY MIND" srcset="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_111/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo.png 111w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_90/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-90x90.png 90w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_110/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-110x110.png 110w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_68/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-68x68.png 68w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_85/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-85x85.png 85w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_55/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-55x55.png 55w" sizes="(max-width: 111px) 100vw, 111px"></noscript><img
+width='111' height='111' src='https://cdn.shortpixel.ai/client/q_lqip,ret_wait/https://studymind.co.uk/wp-content/uploads/2019/04/Physics-Badge.png ' data-src='https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_111/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo.png' class='lazyload custom-logo' alt="STUDY MIND" data-srcset="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_111/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo.png 111w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_90/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-90x90.png 90w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_110/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-110x110.png 110w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_68/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-68x68.png 68w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_85/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-85x85.png 85w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_55/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-55x55.png 55w" data-sizes="(max-width: 111px) 100vw, 111px"></a><p
+class=site-title><a
+href=https://studymind.co.uk/ rel=home>Study <span>Mind</span></a></p>
+<button
+class=menu-toggle aria-controls=primary-menu aria-expanded=false><i
+class="fas fa-sort-down"></i></button></div><nav
+id=site-navigation class=main-navigation>
+<button
+class=menu-toggle aria-controls=primary-menu aria-expanded=false><i
+class="fas fa-sort-down"></i></button><div
+class=menu-header-menu-centre-container><ul
+id=primary-menu class=menu><li
+id=menu-item-29 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-29"><a
+href=https://studymind.co.uk/>Home</a></li><li
+id=menu-item-517 class="dropdowns menu-item menu-item-type-post_type menu-item-object-subject menu-item-has-children menu-item-517"><a
+href=https://studymind.co.uk/subject/a-level-biology/>A-Level</a><ul
+class=sub-menu><li
+id=menu-item-493 class="gcse-biology menu-item menu-item-type-post_type menu-item-object-subject menu-item-493"><a
+href=https://studymind.co.uk/subject/a-level-biology/><div
+class=sub-menu-item><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png'><div
+class=menu-text><p
+class=title>A-Level Biology</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></div></a></li><li
+id=menu-item-655 class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-655"><a
+href=https://studymind.co.uk/subject/a-level-physics/><div
+class=sub-menu-item><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png'><div
+class=menu-text><p
+class=title>A-Level Physics</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></div></a></li><li
+id=menu-item-494 class="gcse-chemistry menu-item menu-item-type-post_type menu-item-object-subject menu-item-494"><a
+href=https://studymind.co.uk/subject/a-level-chemistry/><div
+class=sub-menu-item><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png'><div
+class=menu-text><p
+class=title>A-Level Chemistry</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></div></a></li></ul></li><li
+id=menu-item-516 class="dropdowns menu-item menu-item-type-post_type menu-item-object-subject menu-item-has-children menu-item-516"><a
+href=https://studymind.co.uk/subject/gcse-biology/>GCSE</a><ul
+class=sub-menu><li
+id=menu-item-491 class="gcse-biology menu-item menu-item-type-post_type menu-item-object-subject menu-item-491"><a
+href=https://studymind.co.uk/subject/gcse-biology/><div
+class=sub-menu-item><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png'><div
+class=menu-text><p
+class=title>GCSE Biology</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></div></a></li><li
+id=menu-item-492 class="gcse-physics menu-item menu-item-type-post_type menu-item-object-subject menu-item-492"><a
+href=https://studymind.co.uk/subject/gcse-physics/><div
+class=sub-menu-item><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png'><div
+class=menu-text><p
+class=title>GCSE Physics</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></div></a></li><li
+id=menu-item-495 class="gcse-chemistry menu-item menu-item-type-post_type menu-item-object-subject menu-item-495"><a
+href=https://studymind.co.uk/subject/gcse-chemistry/><div
+class=sub-menu-item><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png'><div
+class=menu-text><p
+class=title>GCSE Chemistry</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></div></a></li></ul></li><li
+id=menu-item-30 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a
+href=https://studymind.co.uk/resources/>Resources</a></li><li
+id=menu-item-35 class="right menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a
+href=https://studymind.co.uk/about/>About</a></li><li
+id=menu-item-533 class="right signup menu-item menu-item-type-custom menu-item-object-custom menu-item-533"><a
+href=#cta>Sign Up</a></li></ul></div></nav>
+<button
+class="signup mobile-signup">
+Sign Up
+</button></header><nav
+id=mobile-nav class=mobile-nav><div
+class=menu-header-menu-centre-container><ul
+id=primary-menu class=menu><li
+class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-29"><a
+href=https://studymind.co.uk/>Home</a></li><li
+class="dropdowns menu-item menu-item-type-post_type menu-item-object-subject menu-item-has-children menu-item-517"><a
+href=https://studymind.co.uk/subject/a-level-biology/>A-Level</a><ul
+class=sub-menu><li
+class="gcse-biology menu-item menu-item-type-post_type menu-item-object-subject menu-item-493"><a
+href=https://studymind.co.uk/subject/a-level-biology/><div
+class=sub-menu-item><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png'><div
+class=menu-text><p
+class=title>A-Level Biology</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></div></a></li><li
+class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-655"><a
+href=https://studymind.co.uk/subject/a-level-physics/><div
+class=sub-menu-item><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png'><div
+class=menu-text><p
+class=title>A-Level Physics</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></div></a></li><li
+class="gcse-chemistry menu-item menu-item-type-post_type menu-item-object-subject menu-item-494"><a
+href=https://studymind.co.uk/subject/a-level-chemistry/><div
+class=sub-menu-item><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png'><div
+class=menu-text><p
+class=title>A-Level Chemistry</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></div></a></li></ul></li><li
+class="dropdowns menu-item menu-item-type-post_type menu-item-object-subject menu-item-has-children menu-item-516"><a
+href=https://studymind.co.uk/subject/gcse-biology/>GCSE</a><ul
+class=sub-menu><li
+class="gcse-biology menu-item menu-item-type-post_type menu-item-object-subject menu-item-491"><a
+href=https://studymind.co.uk/subject/gcse-biology/><div
+class=sub-menu-item><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png'><div
+class=menu-text><p
+class=title>GCSE Biology</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></div></a></li><li
+class="gcse-physics menu-item menu-item-type-post_type menu-item-object-subject menu-item-492"><a
+href=https://studymind.co.uk/subject/gcse-physics/><div
+class=sub-menu-item><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png'><div
+class=menu-text><p
+class=title>GCSE Physics</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></div></a></li><li
+class="gcse-chemistry menu-item menu-item-type-post_type menu-item-object-subject menu-item-495"><a
+href=https://studymind.co.uk/subject/gcse-chemistry/><div
+class=sub-menu-item><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png'><div
+class=menu-text><p
+class=title>GCSE Chemistry</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></div></a></li></ul></li><li
+class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a
+href=https://studymind.co.uk/resources/>Resources</a></li><li
+class="right menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a
+href=https://studymind.co.uk/about/>About</a></li><li
+class="right signup menu-item menu-item-type-custom menu-item-object-custom menu-item-533"><a
+href=#cta>Sign Up</a></li></ul></div></nav><div
+id=content class=site-content><style>/*Use this to impelement hover styles dependent on backend selection?*/
+	body {
+		--biology-colour: #7FC610;
+	}
+	.resource-tables-wrapper .resource-tables .resource-table ul li a:hover {
+		/*background: linear-gradient(to right, #008f45 0%, #008f45 0.15%, #2ca043 31.77%, #8cc63f 100%);*/
+		background-color: #7FC610;
+		color: #fff;
+	}
+	.resource-tables .resource-table ul li a {
+		color: #7FC610;
+	}
+	.cta-resource h2 span {
+		color: #95EFAB;
+	}
+	h1 {
+		color: #7FC610;
+	}
+	h3 {
+		background-color: #7FC610;
+	}</style><div
+class=subject-resource-intro><div>
+<noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/04/Group-273@2x.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/04/Group-273@2x.png'><h1>Edexcel <span>A-Level</span> Biology</h1></div><p>We have worked hard to compile every past paper by topic and exam board! So if you’re revising the Carbon Cycle for Edexcel A-Level Biology, you can find all of the Carbon Cycle questions that have been ever asked by Edexcel in one single document - useful, no?</p></div><div
+class=resource-tables-wrapper><div
+class=resource-tables><div
+class=resource-table><h3>1. Biological Molecules</h3><ul><li><p>1.1 | Carbohydrates (Part 1)</p><a
+href="https://drive.google.com/open?id=1zaSUK6gMi4RTMTpUDM1zdCpwwxJhzd8g" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1TuyWDyLioYBl79-Fo0ZGlCn38zhbHeSx" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.1 | Carbohydrates (Part 2)</p><a
+href="https://drive.google.com/open?id=1BLMEAlNfld8-WyMkUV1YamIz_uaKuFky" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1yZ3H5Ua96lkufPOTglbDVmaEYMdBbUUZ" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.1 | Carbohydrates (Part 3)</p><a
+href="https://drive.google.com/open?id=1vS0Mk82TEL9NNOOybcB5EECXHh0TaQfc" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=12N_7BUp0Cf67_JDOgTWqDGb7oFDmI_S7" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.1 | Carbohydrates (Part 4)</p><a
+href="https://drive.google.com/open?id=1Sa7X4X7JN1YEm180RFGhTcJqGhmAPDL7" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=13H6bcUBb8hp1fyDmZY2K3HE3QBET65N0" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.2 | DNA & Protein Synthesis (Part 1)</p><a
+href="https://drive.google.com/open?id=1K-B2nn-ZO47DVp7t9OuSw4a7ct7A6SyG" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1j6m7r-UQz4ftzAIcloR1x7UTchVt2f8C" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.2 | DNA & Protein Synthesis (Part 2)</p><a
+href="https://drive.google.com/open?id=1_TbkgpKfZ5k2lb30VkjU_eldQfKtOGcl" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1kQmc6qdXjMXAXHhexEtswfSogSR8r6Jn" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.2 | DNA & Protein Synthesis (Part 3)</p><a
+href="https://drive.google.com/open?id=10pyGfc9n47s1EL0yUSD2VnaqRmnrSrcu" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1iB0Cb1mnzEWbTdNXNFFpvGf8E_ip3rFX" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.2 | DNA & Protein Synthesis (Part 4)</p><a
+href="https://drive.google.com/open?id=1EG3JXVeyS-IAmxceeieeGO6EdyJhd_yQ" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1phDswqReDHwIXlhCcyAFxR1TNEpwqYJx" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.2 | DNA & Protein Synthesis (Part 5)</p><a
+href="https://drive.google.com/open?id=1vPXBy7OgZMR4zvHJHsb8KdTXrz7K-78B" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1O17a_AvQCR7PkNJacd_KRzPt3ZmgLZQO" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.2 | DNA & Protein Synthesis (Part 6)</p><a
+href="https://drive.google.com/open?id=1JR1dMfXvapj9msQyDxngWgFZKZqlcWtM" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1BWnGQVS9gwsoMPKMVRGjdvweCvbzscY_" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.2 | DNA & Protein Synthesis (Part 7)</p><a
+href="https://drive.google.com/open?id=17Z0w92HMuJqEpcxBKt-5lLCiB1IYQR8Y" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1PKDVPcIT8mJ3Mndw4riyr_L071lLb91x" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.3 | Enzymes (Part 1)</p><a
+href="https://drive.google.com/open?id=1WEDDFJ7bVlKJ1UFswTUWaYRX9GnjHQOI" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=14b89usJGvLiY5nnxepJjQcY6NygSivMx" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.3 | Enzymes (Part 2)</p><a
+href="https://drive.google.com/open?id=1KVRKuRiLzpBIZvrt7krwMLXSe2LyF7WH" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1Akyrzl1jvcpJ_PpbiF--Cb8XzzHJlThu" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.3 | Enzymes (Part 3)</p><a
+href="https://drive.google.com/open?id=1yma5J7xw1oRVce3aiBv78i3_udMiIDYr" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1UPLGN45OapRh33DAHhNsTGeWbXvmBdKk" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.3 | Enzymes (Part 4)</p><a
+href="https://drive.google.com/open?id=1wd-t2CMIvVnIOXPrRGNfBLxIfw_jrDFK" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1_yWJQeKTOAuKzAXYoI0CzDaRnLJGZ5W8" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.4 | Inorganic Ions (Part 1)</p><a
+href="https://drive.google.com/open?id=1wcdJ7yVotT7bVZDthUFn30E_hiUCqmTI" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1Wc-Hx1cGXtBGA3eqg4ONcT1S67YlkUT1" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.4 | Inorganic Ions (Part 2)</p><a
+href="https://drive.google.com/open?id=1SqYLl7Z-jjZKwnf0Sc5LrZW22uYSbIFu" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1R_UXCNLnLuZUyk_dxw9udN12rwJ9xwC6" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.5 | Lipids (Part 1)</p><a
+href="https://drive.google.com/open?id=1IGfDil4DCeLqIREAN3GZiugvItUc6Rg7" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1ryCWJHuuUkx_cfUvQ9LwH0F-rkArI0d2" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.5 | Lipids (Part 2)</p><a
+href="https://drive.google.com/open?id=16-16PsPWM7oUjoTchVeGEwJydM40k9ce" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1AAQ6nvMDzzMLfeZLOmEpSbgDF6ZCi4F9" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.6 | Proteins (Part 1)</p><a
+href="https://drive.google.com/open?id=1r3qoeqVChwg3cIxFQq_FTciOmz_oz_xn" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1UP5OT8NSBSyLOeicz18Mwz_ilYJZm20K" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.6 | Proteins (Part 2)</p><a
+href="https://drive.google.com/open?id=1kxrNVy77Uet2fiTh0tTev-bN5zwvIKuk" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1xyVrkI7jPeIpe5ZI0Z72VT0S9yqu39-X" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.6 | Proteins (Part 3)</p><a
+href="https://drive.google.com/open?id=1HHbh2txwVT4hHOduJiDyzB5vAUGFWSwv" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1vI_Cm_4ZStrpuCpaZBhVzSO0PdhOz_Z7" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.6 | Proteins (Part 4)</p><a
+href="https://drive.google.com/open?id=1eRZLBxWLIruycOU1YX1IOPH6iHe3iuSX" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1GUmOMj1RZ33UzOImViikq3iVGMuCfJXR" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>1.7 | Water</p><a
+href="https://drive.google.com/open?id=1ITnAQj7EYKl5SD4ItQDduwmS3WIIYIX_" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1KjIgsPNXBZdGmlneWSIiGn98KsQdcsAC" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li></ul></div><div
+class=resource-table><h3>2. Cells, Viruses & Reproduction</h3><ul><li><p>2.1 | Eukaryotic & Prokaryotic Cell Structure & Function (Part 1)</p><a
+href="https://drive.google.com/open?id=1a-p7zgcSXnFivUwFkEA3vjweQAAKmYqB" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1xNE84x8Pe7rUW0XPJV1g8TGdCiUaVMIh" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.1 | Eukaryotic & Prokaryotic Cell Structure & Function (Part 2)</p><a
+href="https://drive.google.com/open?id=1VmD8rL4sEeqBfHKTAXuVE8ogEJWJQ-QQ" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=15s5m-Ho31Br1oHWz924zf6CzXGWFImrA" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.1 | Eukaryotic & Prokaryotic Cell Structure & Function (Part 3)</p><a
+href="https://drive.google.com/open?id=1htxxFNzGPab4CcFlcEkioj5x915AZSpv" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1pa2qNSyLMbUNeLPWGRgTW16oad1Zljoj" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.1 | Eukaryotic & Prokaryotic Cell Structure & Function (Part 4)</p><a
+href="https://drive.google.com/open?id=10JaipjGdTgrI6nKuRr0xeEX0jKPyZct9" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1jAv48abA2gHb6nSgGs2u46oGW816ONXL" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.1 | Eukaryotic & Prokaryotic Cell Structure & Function (Part 5)</p><a
+href="https://drive.google.com/open?id=1yJ1tCVwqCyqhr6NlByKCF4EwhsK2D80y" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1g5LbEApnYrXjFD3N-nA43SuGcKPr6ewJ" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.1 | Eukaryotic & Prokaryotic Cell Structure & Function (Part 6)</p><a
+href="https://drive.google.com/open?id=1VFXoHX1M7OXGBJph7AC7-mWIHtLpQhqA" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1MvB15HNrdajhetUqxBymIytrHDPFTOqD" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.1 | Eukaryotic & Prokaryotic Cell Structure & Function (Part 7)</p><a
+href="https://drive.google.com/open?id=1QOYjSZp-Kx1tvx5vdJf2Tu4c97cM22S6" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1PNnWBhBptXy8x72uo1aipl6mZJtxgRoe" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.2 | Eukaryotic Cell Cycle & Division (Part 1)</p><a
+href="https://drive.google.com/open?id=1KwSEK-iOeIpCyC2IUDfg1G-I4rPebzXL" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1iMWyZCh4TMnrsrkve9TPq8d-wQOtMKO2" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.2 | Eukaryotic Cell Cycle & Division (Part 2)</p><a
+href="https://drive.google.com/open?id=1FuuWaZLEnntZHpYReUJUlRxVyy2iMLpP" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1nLr5bxsOFMK4lVMe8UtvY6DD1g1WjJNV" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.2 | Eukaryotic Cell Cycle & Division (Part 3)</p><a
+href="https://drive.google.com/open?id=1PrnDiBwWyv0JyR4jc2M-srrSAPY8ac4S" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1P9nVFFgfpcPGA3r4RptS5Yqjd-npWvlh" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.2 | Eukaryotic Cell Cycle & Division (Part 4)</p><a
+href="https://drive.google.com/open?id=1TIS9eHPj4HIOD6xflhVvrYgXjh1z0FSA" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1krrfYYSDjAv7q2Iu2qRSQSaTctTlE1ML" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.3 | Sexual Reproduction in Mammals (Part 1)</p><a
+href="https://drive.google.com/open?id=1GZ1bJ3ffVXYZZjzBa9cGakd1-cyGROPw" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1_pCSQsrEOVmCmxi_APmb-ZxRaDPStPVM" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.3 | Sexual Reproduction in Mammals (Part 2)</p><a
+href="https://drive.google.com/open?id=1Gjmu1l-epJweUKMCqJoqGPe2JKV1UXTb" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1TTZkAEP9l-oVBLl-pjr2LxRTB0HBSUfx" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.3 | Sexual Reproduction in Mammals (Part 3)</p><a
+href="https://drive.google.com/open?id=1JUu2QcfzWjGO3wKerx6xo2_fgrJIpc9Y" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=10okGOzDdmZ7wMHVV_T_kmyfa7mLMouJ1" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.4 | Sexual Reproduction in Plants (Part 1)</p><a
+href="https://drive.google.com/open?id=1ArXpRRwBaOahXdCQmLA690IBIFhFbaon" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1Lc_i9FRAUyn6TtivXC_U8diIQjs8CLVU" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.4 | Sexual Reproduction in Plants (Part 2)</p><a
+href="https://drive.google.com/open?id=1AAgG6YGh5e7xPKsjr104FPNdmJ6TAR5W" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1KCLeWlOu69xpxcZjtzz9GZ9qF3WK0Dqk" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.5 | Viruses (Part 1)</p><a
+href="https://drive.google.com/open?id=18kocDseoEgoYix7_W_vIMCsEN0zMDkhu" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1uZAsBpXXUV353uaTrrgItvAukTPpD_Yw" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>2.5 | Viruses (Part 2)</p><a
+href="https://drive.google.com/open?id=1BeNH1sT_CCp2hGafjhg8hvq8ociEX_mW" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1tL4bkHpnbs0haIeumPjQSl_MyWJIr9X3" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li></ul></div><div
+class=resource-table><h3>3. Classification and Biodiversity</h3><ul><li><p>3.1 | Biodiversity (Part 1)</p><a
+href="https://drive.google.com/open?id=1ogAllQcWYHwBaJf-UHH6f93IBlWrVh-u" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=132qrek-ktt5Nk4pnKqr5MSiq24h2dGZI" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>3.1 | Biodiversity (Part 2)</p><a
+href="https://drive.google.com/open?id=1KKsIv2ld9YSKihIFIaeKZup9enSserIm" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1ZaysuLrnDhrPxJjPqN0sfS_TxXiA5zTf" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>3.1 | Biodiversity (Part 3)</p><a
+href="https://drive.google.com/open?id=1Z_ouHES1VBEnMoKG4jXd9JCleRtGOVi7" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1SbcVqR6ISW9sWBebkHwaIcStQVYs7gyY" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>3.1 | Biodiversity (Part 4)</p><a
+href="https://drive.google.com/open?id=1-WF2a0HPqL4R3Cf1dSMlX0UkpNp0oUFB" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1_h3H_u5fnu7owc_jm78sak0XKefb922r" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>3.2 | Classification (Part 1)</p><a
+href="https://drive.google.com/open?id=14TeVNNlo-nKPO4kjQ_hbaWoHXNhieVPb" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1WZ0xJ-8N23_QSQ-5QWC_1mQAYBNowKJ-" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>3.2 | Classification (Part 2)</p><a
+href="https://drive.google.com/open?id=1RlBu63m74h8QtfH898Q0pKBeQEqhcih6" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1mu1CfN_c6cOs9LfcRXOpGfwd9bjXlxWp" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>3.2 | Classification (Part 3)</p><a
+href="https://drive.google.com/open?id=18Bs0z1QNFVPH4ejdaUoFLIOyVxiIdeIB" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1OivZeLWeD-EPzC798hxA2eLi9LYeBTHR" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>3.2 | Classification (Part 4)</p><a
+href="https://drive.google.com/open?id=1lDNMKxzX3dsThQtvl7TNExOnowLaiFt9" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1LbvyYZi-vbHNEAzCDVk0ZKVY-JvTVLtI" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>3.3 | Natural Selection (Part 1)</p><a
+href="https://drive.google.com/open?id=1mbOxcWANy9h0xUXr6HBWVfigHm1cAGnn" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1lvgGQoaoEY8-Sg95PleE0bJOjSpPVdBI" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>3.3 | Natural Selection (Part 2)</p><a
+href="https://drive.google.com/open?id=1Q0VWPy6lpi82YE_ShZ8xe4b1I-PRoeIo" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1JmAkpqndqhFEZc-uXL5h94n_pGolKmqD" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>3.3 | Natural Selection (Part 3)</p><a
+href="https://drive.google.com/open?id=1e7WIkN6sftiNP3Zjpp94Ed3mG9RiOMin" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1tFhSmh3DbaC_x1PYSfooPMLZVLP-JGhA" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>3.3 | Natural Selection (Part 4)</p><a
+href="https://drive.google.com/open?id=1UnZBUKPrxDOO345nFsydNFaz2VwYG5lP" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1KREz1EHLHJZErNk5-4ne3YZRx0UhagNg" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>3.3 | Natural Selection (Part 5)</p><a
+href="https://drive.google.com/open?id=1k7jN1ZF9j8msGnYQKUTFaINoLBWf-cSU" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1Zq4KZHL-Wbj5iywgyQkc1HTVjUaKL4KY" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>3.3 | Natural Selection (Part 6)</p><a
+href="https://drive.google.com/open?id=14yppiJ5KT6NC67p9HRzR09_6DqVL7m3_" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1GFZ0uK4zSC2irdpSgDEeWIxaAlvCT8m6" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li></ul></div><div
+class=resource-table><h3>4. Exchange and Transport</h3><ul><li><p>4.1 | Cell Transport Mechanisms (Part 1)</p><a
+href="https://drive.google.com/open?id=1loj6rrO5gxQ4084rqA_T9igsGKqr78mS" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=17FRwt84lDChVzvsDjDCOjr0iiYyPqL5K" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.1 | Cell Transport Mechanisms (Part 2)</p><a
+href="https://drive.google.com/open?id=1vIgYjeE6Pg_rXT0yOB3jhleDzFPIGnWJ" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=10O02eYqJH6L-U65w-gi-4CuydQpy0t7W" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.1 | Cell Transport Mechanisms (Part 3)</p><a
+href="https://drive.google.com/open?id=1vlu1wv3uo8nrjE0Xw1EIxIsN4ooEPrKo" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1ZV0zA8LRN6UzYDpjnDTCS1JId1HuggVI" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.1 | Cell Transport Mechanisms (Part 4)</p><a
+href="https://drive.google.com/open?id=1_glxJV03Ot3vcloxaHYYD53Zjdoeqilp" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=13tQt1o9L2IZRvSoaDQAsVesGm3mam3It" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.2 | Circulation (Part 1)</p><a
+href="https://drive.google.com/open?id=1bv2r5G-IYUqGVcj_3hzkmAdDSgUik6RT" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1zeKbzsyjP8rQjRpQDfEMl6qvKe-nPP4o" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.2 | Circulation (Part 2)</p><a
+href="https://drive.google.com/open?id=1S4oK5CQmVBaufGKQT1-dMXLSAoUr6ee_" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1cwqJQ_ZVY7Z58KsNMKYGT4sU3xqV2KdQ" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.2 | Circulation (Part 3)</p><a
+href="https://drive.google.com/open?id=18FTj5-g55GPSrmWjAmzG9oftsVRoL92p" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1RAkY9Isc4BD3W1dxZan0YchMxXqAezza" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.2 | Circulation (Part 4)</p><a
+href="https://drive.google.com/open?id=1vbsVm6E01hgRk9KYnufvpNafGZ3clkIM" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1o455AQMgBeId1OhzVL-58YsrA2W1DIxx" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.2 | Circulation (Part 5)</p><a
+href="https://drive.google.com/open?id=1V4p7jkZUte2H7-zjPCTEhoWoD4b-1UlA" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1jm5M2Zcn-rQtCJbAOzChB_cX5bjna945" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.2 | Circulation (Part 6)</p><a
+href="https://drive.google.com/open?id=1WdTeYGdLTNo9Lw8tBBVOz4bE3A1qAeE1" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1HW0GPA-5FV2db7wONkvHRx1H4aCJlJic" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.2 | Circulation (Part 7)</p><a
+href="https://drive.google.com/open?id=1bUOiSucgZseJ_KsdjCMX9PD8MW0y9W8T" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=18RGy6Sc7R_f1ctDerapeoFQ1rMTFDTfu" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.2 | Circulation (Part 8)</p><a
+href="https://drive.google.com/open?id=1_r4n3kYOE6SxhjwUAzuhjDZYwasOWlnt" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1n5zV7AYtPX_JmHOVHdTeTfS7zwjS4iAL" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.3 | Gas Exchange (Part 1)</p><a
+href="https://drive.google.com/open?id=10fYS2XvXr-GotKW4EHdSvkDWC8RZhPtF" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1ooPWaCaVVzfLMrK6qGYRApgNaFPjplUy" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.3 | Gas Exchange (Part 2)</p><a
+href="https://drive.google.com/open?id=1fhA6zXoVSeyXrhaKHHrQcFFe3WcDgYRh" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1PeXQJmA7jmQn0mFf7x9xSU5GlL1c7Kd8" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.3 | Gas Exchange (Part 3)</p><a
+href="https://drive.google.com/open?id=1W0sKLwRqp1z1384zQVVZUlylC4MM70Iy" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1IGclTpLLc382FGdiqJrIIBOo1rWV4crl" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.4 | Surface Area to Volume Ratio</p><a
+href="https://drive.google.com/open?id=1W0AODhkP3psZL858cX3Mxd3p9jcFMZ_j" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1tAovE8iB4TWjUPNVavzB42LqU9Kf65dP" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.5 | Transport in Plants (Part 1)</p><a
+href="https://drive.google.com/open?id=1594BxokbXvOPuTosITuqz9bowvLDAc2W" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1QxQERtIKkSJzbkscFYvKxqd14a1zGdwI" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.5 | Transport in Plants (Part 2)</p><a
+href="https://drive.google.com/open?id=1VqVNAqKpiDFF22LcKXKNQcZVsQWQ4laF" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1y4YZRXvnEiGYvdBwfCC2yMsWIZ3QoJPa" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>4.6 | Transport of Gases in the Blood</p><a
+href="https://drive.google.com/open?id=1922uEEn-W54QXujC1IOCkik_LEHjLqWC" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1mlJiBeup4En-wDClESt8WTdzYIbm2rsd" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li></ul></div><div
+class=resource-table><h3>5. Energy for Biological Processes</h3><ul><li><p>5.1 | Aerobic Respiration (Part 1)</p><a
+href="https://drive.google.com/open?id=1G1l-rob0bbDcDKoqeQt6crI2_0I8VJYS" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1adcFSBXms3g7GHXPB7NoeNNByBb2Uidm" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>5.1 | Aerobic Respiration (Part 2)</p><a
+href="https://drive.google.com/open?id=1fg2z76FCunOIlqB_XP1sZGeXik_WNKl1" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1xUcBNP3TgXR76LuepBOpfLbgjm2FS63f" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>5.1 | Aerobic Respiration (Part 3)</p><a
+href="https://drive.google.com/open?id=1kEhfmwrCYuroJ-0BqGxvCsbojSXcf3dz" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1opmoV1d2vfjPCrQGf8M7dMuVBr3uoeVD" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>5.2 | Link Reaction and Krebs Cycle</p><a
+href="https://drive.google.com/open?id=15BgBQ3IENfG1U0nEI2T49slRHgb2ZvQ9" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1xcxJ4pon2vHl8qOOrX2xKvPy-bHJhJ_-" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>5.3 | Oxidative Phosphorylation</p><a
+href="https://drive.google.com/open?id=1fNm_4mBW3Ui5fvReVG8o9t1erseUPjDB" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1y3NDo7uScPgc0QEfmH90kzGrxre3n7Cr" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>5.4 | Photosynthesis & Photosynthetic Pigments (Part 1)</p><a
+href="https://drive.google.com/open?id=19iAK4OgGqNYpxtpLSQtaIDYsGcAUd_pt" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1wUifgMaoSQmCMQ_F1RPbAVLeZG9ZPDai" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>5.4 | Photosynthesis & Photosynthetic Pigments (Part 2)</p><a
+href="https://drive.google.com/open?id=16snDzrJDwvEaV9aEAAOr_RpYEcYW28oF" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1gjeqMTZasr4wG0n0w7c0RPMbW4dpiiYX" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>5.4 | Photosynthesis & Photosynthetic Pigments (Part 3)</p><a
+href="https://drive.google.com/open?id=1o02MFhfU_XaRqNUnYoqPNVT5TWnhTOFt" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1QHEoL5Mg-607aKpz3M1JFhpjhz1i9VB0" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>5.4 | Photosynthesis & Photosynthetic Pigments (Part 4)</p><a
+href="https://drive.google.com/open?id=1gM9SvZGR03LZsS1yG74C3_mi-Weq_V4N" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1f15K-OYlFTf0__lb74GfQHyZ-84-xyEx" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li></ul></div><div
+class=resource-table><h3>6. Microbiology and Pathogens</h3><ul><li><p>6.1 | Action of Antibiotics (Part 1)</p><a
+href="https://drive.google.com/open?id=1e_U89HFA0b6jQs21A-oRwyax-fjb08hc" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1FgIJfRWtqTmTe3rGHIN-Q-4UdMGNQSiA" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>6.1 | Action of Antibiotics (Part 2)</p><a
+href="https://drive.google.com/open?id=1i4QK7FUIMpXMLk9sRdN8kJAYuw95pk15" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1-RrjHQZAcOXbbwSkBEeOt5NGLe9Xd1j0" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>6.2 | Bacteria as Pathogens</p><a
+href="https://drive.google.com/open?id=169kLCTBHAH1xArWeOr5EZ9jTqvXPJbuw" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1C-Z2yuXaQT1gcx81hg6SKg8Y3gFnqhU3" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>6.3 | Microbial Techniques (Part 1)</p><a
+href="https://drive.google.com/open?id=1lYBe8CyxPH6OpLJY7cEL-gjkorqtco20" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1cFyeKFaBbPN14YHFcnKRA1cbfWGWTnB7" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>6.3 | Microbial Techniques (Part 2)</p><a
+href="https://drive.google.com/open?id=1LOy8OWzfUMgiVW8QiGGiaLAiq8HV89F2" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=17OCPPnxcjhJEcZjTt1LHDVwWvwGy7LDk" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>6.3 | Microbial Techniques (Part 3)</p><a
+href="https://drive.google.com/open?id=1WX8vLAcN96q5je5V14UuITL5xckQuHqw" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1dSn9GjeebhZPt-Uckl6Y2aR4PBkGuLoj" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>6.4 | Response to Infection (Part 1)</p><a
+href="https://drive.google.com/open?id=13qiL3hqyinGP3wpUhgFPyBhWvPiE0dss" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1O7VAeDLwlKvdIty-TfKvChdjA_4Pr1pk" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>6.4 | Response to Infection (Part 2)</p><a
+href="https://drive.google.com/open?id=1s7FdtDbFJ1Kvs1GR8Q9qF7Xj4lPj1blh" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1-cS-V8tU5xM6hTIlH0N1Jq-00GexmqAU" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>6.4 | Response to Infection (Part 3)</p><a
+href="https://drive.google.com/open?id=1uKlessAs9rLU-kaKKLP28ygQfKvcpawd" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=15nyWdU2KEvt1vJDSBYx83nWN2kSXW1vc" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>6.4 | Response to Infection (Part 4)</p><a
+href="https://drive.google.com/open?id=1SVbJ1NVIkroXv-n_y3aa9HPCXyA0o7S-" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=13UWkGBz-Y6Fw_vuPSMxxmm-Pv0L_eV-z" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>6.4 | Response to Infection (Part 5)</p><a
+href="https://drive.google.com/open?id=1hXYKBc9z4P5NPz5tk6ovuuWHb-yK6X62" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1-EWpUfoLKdsmUzpc0PNCCGpfLIIVtNBs" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>6.4 | Response to Infection (Part 6)</p><a
+href="https://drive.google.com/open?id=13kI9t81wz4VoGCejtG7SzOGkn8iwCPPC" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1CG3CttYY4OdJ-ixW5apavUYkaQS2_WPX" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li></ul></div><div
+class=resource-table><h3>7. Modern Genetics</h3><ul><li><p>7.1 | Factors affecting Gene Expression</p><a
+href="https://drive.google.com/open?id=1taU7La8pKnVEqUHMgxuai1jduOPEJI6V" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1IMGAnjihq1N6Bpcc9esGvY2HqNq1ae43" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>7.2 | Gene Sequencing</p><a
+href="https://drive.google.com/open?id=18UNZnFPrMbV2F6a5SMU2e0BIp-CuWjKc" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1ersbHkMSfs4bSjkhuhAaaBnYMbNO8NiJ" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>7.3 | Gene Technology (Part 1)</p><a
+href="https://drive.google.com/open?id=1nqVZYHmoF3WlhCAYGHma0MmR4JF3wIXe" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1CjGDswwLRGdPnmDwO6JpRoAIGV6gsW-t" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>7.3 | Gene Technology (Part 2)</p><a
+href="https://drive.google.com/open?id=1oIka8naLJB7PioKrTwXPN_cmFrqKsYRy" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1Q0je-IQQGB3I3Fu6kKh2OZ5PDbdPIlW9" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>7.3 | Gene Technology (Part 3)</p><a
+href="https://drive.google.com/open?id=1esudjLSfrO5z_dh39Fg23ivaJfCrziR9" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1Ol-_V8dELNx1A3_glY388Xvqt_O3Q_QW" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>7.4 | Stem Cells (Part 1)</p><a
+href="https://drive.google.com/open?id=1PtYXDN52ipqEJ52iU1r4MD-YfHFA54HF" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=17rFRPuMBVid_PkV4qv7jTk4PFVe903dt" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>7.4 | Stem Cells (Part 2)</p><a
+href="https://drive.google.com/open?id=1BE8bfkM06bZTD-TkfSdQeTPm8KIuiUCX" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1Cy99AKutxad_ighPISo0y-sM9XwB9BVC" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>7.4 | Stem Cells (Part 3)</p><a
+href="https://drive.google.com/open?id=1RiqTb7VEa-AYtJpUWjc_EB295iZD5kpT" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1Kxry8E0WfpQEeyykIDdSK-zNhFNvpwUt" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li></ul></div><div
+class=resource-table><h3>8. Origins of Genetic Variation</h3><ul><li><p>8.1 | Gene Pools</p><a
+href="https://drive.google.com/open?id=1TbVNxjblsvqW9q-J6OnEaenln5x8EAwb" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1cX-PX9t0m2fbI58epeAAkC3WDHhARY3k" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>8.2 | Transfer of Genetic Variation (Part 1)</p><a
+href="https://drive.google.com/open?id=1Gq-NT8rzl8rvPeIHVID9wq_SuWP53PKg" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1G_H8Ww54i6ZCd2bpwOlEKViA7RjlQSvI" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>8.2 | Transfer of Genetic Variation (Part 2)</p><a
+href="https://drive.google.com/open?id=1E3pRubs-dOkk39J_FggAmZx4qF8znNBy" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1LqNUGIgmaUPwQqXLTE6vjQ19NM659mjO" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>8.2 | Transfer of Genetic Variation (Part 3)</p><a
+href="https://drive.google.com/open?id=1OZB9lkbKKh9xnGM_ONAu0IL9wOaFvqDl" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1jgnl1Xiul24N08YaZgW4ti9vVs9_z-8e" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>8.2 | Transfer of Genetic Variation (Part 4)</p><a
+href="https://drive.google.com/open?id=1PZ9gWrOzfCXSR-Qxo4UBWYcAnO5UEiq7" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1tOc4POwfUcVQ14hMJj2YqNkhyWgHCN1B" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>8.2 | Transfer of Genetic Variation (Part 5)</p><a
+href="https://drive.google.com/open?id=1efBszezmFoKQrPOnbgJO0_zN44dQ4PlT" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1M-Pc7DXz7qkd1Aivu8OBZJ5cSMFHh-6l" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>8.2 | Transfer of Genetic Variation (Part 6)</p><a
+href="https://drive.google.com/open?id=1xEteKRz9ZK8HTJX581RP1RtcWYlVCYfY" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=16yN2DNcItvzFTYC8GjNwoqcG2v2sMM3v" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>8.2 | Transfer of Genetic Variation (Part 7)</p><a
+href="https://drive.google.com/open?id=15PQ5qfPupNquVoreprFhIy2V4AxmRxE7" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1uAGaxOmplPf7KJDbJXFmBNrpwY365T0l" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li></ul></div><div
+class=resource-table><h3>9. Control Systems</h3><ul><li><p>9.1 | Chemical Control in Mammals</p><a
+href="https://drive.google.com/open?id=1lN8NzlhS_yL2r6Dabhv4RpaoqHZZ1Mjf" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1_UQgV_IlWrfPyX1O4aXWkVGBarVqjgfU" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.2 | Chemical Control in Plants</p><a
+href="https://drive.google.com/open?id=1VdQxrlZPdnPOngWLroZFGQ1CEgcZZeIv" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1TfisBe4a2cWPpoZOAC4I5YtTyQQVKK4j" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.3 | Control of Heart Rate in Mammals</p><a
+href="https://drive.google.com/open?id=1CmzzrioHkBPH6KO5nn8UDY6mla8wf9CB" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1v5X1xWo76-6K3h0wWLfFJEi3mV98D9ja" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.4 | Detection of Light by Mammals</p><a
+href="https://drive.google.com/open?id=1Fp7j62HAokkD5gtmyHmf4P43g2Iiqy0B" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1jpqga3FQ2PeN_nft5hfrZ3mFLplPXiWN" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.5 | Effects of Drugs on the Nervous System</p><a
+href="https://drive.google.com/open?id=1HHsoSn8-XQ9s-Q07UwerePG47Z9W2l6H" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1RHzKn0acCUEdKuIoM1Kbaq-N0pYuG2_T" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.6 | Nervous Transmission (Part 1)</p><a
+href="https://drive.google.com/open?id=1_dMxJA8mVXz4Pt2TWIWAOMbD3S744BcG" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1-1I6n1v4AabyDhU3azLlaNuVjTceM59O" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.6 | Nervous Transmission (Part 2)</p><a
+href="https://drive.google.com/open?id=111NuzJ8EhchyJhKzNgQTX2sqzrjhHxkM" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1wxahKgcKyBgDHSlKSrY9pFRmwY_JDAIx" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.6 | Nervous Transmission (Part 3)</p><a
+href="https://drive.google.com/open?id=1M7kDmZDBe5WcnA8z5cBvauvGlFHI5T88" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1QUuGAxiKdEInn-tFdIkj_M9-8e7ZnrmC" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.6 | Nervous Transmission (Part 4)</p><a
+href="https://drive.google.com/open?id=1bI048TlmzClI60sK6Jqgpuu_3LI08ieF" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1WTBPF9kcTZE_NqCGtRZdB264Pk8Z8OWS" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.6 | Nervous Transmission (Part 5)</p><a
+href="https://drive.google.com/open?id=1vPMRM3j32SIuty-i8Lkv8uF8S2-3IBSQ" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1ZyQSihn9JKDLRXtgsTsHyDY5x6mkr1K3" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.7 | Osmoregulation and Temperature Regulation (Part 1)</p><a
+href="https://drive.google.com/open?id=1PuWrmcVgqb5TRqnVllD--NQg2BZ5iBGi" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1amQY-w5DWkoXIze1Qydv0PRvfNlkx6Sh" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.7 | Osmoregulation and Temperature Regulation (Part 2)</p><a
+href="https://drive.google.com/open?id=1WvKcBnfHZOtjHxH1-VyzVi1p3lD9khq_" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1kfEuIpAoWMcxAq90OJD_qUI3Z0pE3cYp" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.8 | Structure & Function of the Mammalian Nervous System (Part 1)</p><a
+href="https://drive.google.com/open?id=1QKnQsLm6CRj7FnKTuD3MqUt9AXDc3n2x" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1Y-Qv-XbnGr1Qzgf5w2GnXVGL0SvxRk4U" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.8 | Structure & Function of the Mammalian Nervous System (Part 2)</p><a
+href="https://drive.google.com/open?id=1V2VHtz-CCKYMHqZ2Q7RK7y8ZiTw0zHOt" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1vNxETMTTSI2a7isZWtoW4qEF4e0sbVKk" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>9.8 | Structure & Function of the Mammalian Nervous System (Part 3)</p><a
+href="https://drive.google.com/open?id=1zNjwRockeZI3yGTKwA5vep7hsmpTgMeE" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1hlhlacy8fRBRetj2BiySBuibM9AkrD6c" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li></ul></div><div
+class=resource-table><h3>10. Ecosystems</h3><ul><li><p>10.1 | Changes in Ecosystems (Part 1)</p><a
+href="https://drive.google.com/open?id=1QP-hzP7vxosYAB91Gt3StQa1Fl_MwHx0" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1_cwxVybYUdyZ8YF4NZLNlORR70_0WDhu" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>10.1 | Changes in Ecosystems (Part 2)</p><a
+href="https://drive.google.com/open?id=15UZc6CGB0kSjx_d5qnH_8vfAPbEGflLR" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=11_8GyF-jOjWZx46wDRJvJH0C-HIwn7zD" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>10.1 | Changes in Ecosystems (Part 3)</p><a
+href="https://drive.google.com/open?id=1ABaDqfLGSPivYqMeF_dIv-HYM3VN9H5x" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1dUyndMxwJaRexJ3Iu_bejWm6_E6UAZYV" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>10.2 | Energy Transfer through Ecosystems (Part 1)</p><a
+href="https://drive.google.com/open?id=1wikWeejhXBEEY7537In_L9jDYscyG90V" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1T4i5AdjbtwNb2BstakXVzeZkjQMjmiLS" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>10.2 | Energy Transfer through Ecosystems (Part 2)</p><a
+href="https://drive.google.com/open?id=1iilduXUSgbBA3QgucI0-igLeA8mhkJaS" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1Mp0NR6-MSwZpS0_prNTKSJUjuAA77Raj" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>10.2 | Energy Transfer through Ecosystems (Part 3)</p><a
+href="https://drive.google.com/open?id=18gjyL4ZbJxA3yyJ_zuHuPtmsIbHftWl-" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1ODLO1ZEP00O4hktN3VBQx5CfeTkcTL_-" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>10.2 | Energy Transfer through Ecosystems (Part 4)</p><a
+href="https://drive.google.com/open?id=11FPmeET1himfHl77C3sZ8vyzbpwSLOj3" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1tdn4P1gNToo8h0mN5P28tk1AkO1Ojdb7" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>10.3 | Human Effects of Ecosystems (Part 1)</p><a
+href="https://drive.google.com/open?id=16kn9bBkUi7ULdyZO_qny4p5MbtguO2e-" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=13BmDtS55r9b6QQdvYa_2kLz6C8NwynRx" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>10.3 | Human Effects of Ecosystems (Part 2)</p><a
+href="https://drive.google.com/open?id=1e0ESJZcPsXajVkec7aa-xUR8glnAwej6" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1pFoUXZmUBa9woOsXL3fe4JASIbMA5S3F" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>10.3 | Human Effects of Ecosystems (Part 3)</p><a
+href="https://drive.google.com/open?id=19J3o5IXXdmZmBFtv9OGFBLf5MvQv5VkI" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1aiQWpMhFf9IVVFROyU_il0sjDLWCsqBs" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>10.3 | Human Effects of Ecosystems (Part 4)</p><a
+href="https://drive.google.com/open?id=1_g1Iprbh5nTBVQJNDpJnl_q4W3Z72mgA" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1ZbSVrh5zZuJjjXz65883la9bGcf6_pJ8" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>10.3 | Human Effects of Ecosystems (Part 5)</p><a
+href="https://drive.google.com/open?id=14PT7woeEqDHCgx5TEdRmMCNHgv8QpRRt" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1JLtegyRIz7aaiqnrDjkTNpE3rM48fLbz" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li><li><p>10.4 | The Nature of Ecosystems</p><a
+href="https://drive.google.com/open?id=1LfByb8VZKCfKgRv9CDKMDr5zakpFjgMM" target=_blank>Question Paper<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a><a
+href="https://drive.google.com/open?id=1Nn_90nny9pUzRFSSDbKrM99CPzWC_DGa" target=_blank>Mark Scheme<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/arrow.png'></a></li></ul></div></div></div><div
+class=cta-resource><h2>1-to-1 lessons tailored to <span>Edexcel <span>A-Level</span> Biology</span></h2><div
+class=cta-form><div
+class="desktop-form desktop-form-1"><div
+class='gf_browser_safari gf_browser_iphone gform_wrapper gf-studymind_wrapper' id=gform_wrapper_1 style=display:none><form
+method=post enctype=multipart/form-data target=gform_ajax_frame_1 id=gform_1 class=gf-studymind action=/resource/edexcel-a-level-biology/><div
+class=gform_body><div
+id=gform_page_1_1 class='gform_page page-1' ><div
+class=gform_page_fields><ul
+id=gform_fields_1 class='gform_fields top_label form_sublabel_below description_below'><li
+id=field_1_3  class='gfield field-3 gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/04/Mohil.png' alt="mohil founder of study mind"></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/04/Mohil.png' alt="mohil founder of study mind"><p
+class=nex-text>Hi, I'm Mohil, founder of Study Mind. I'd love to create <br>a personalised plan for 1-to-1 tutoring</p></li><li
+id=field_1_4  class='gfield field-4 field_sublabel_below field_description_below gfield_visibility_visible' ><label
+class=gfield_label for=input_1_4 ></label><div
+class='ginput_container ginput_container_text'><input
+name=input_4 id=input_1_4 type=text value class=medium    placeholder=Name...  aria-invalid=false></div></li></ul></div><div
+class=gform_page_footer>
+<input
+type=button id=gform_next_button_1_11 class='gform_next_button button' value=Next  onclick='jQuery("#gform_target_page_number_1").val("2");  jQuery("#gform_1").trigger("submit",[true]); ' onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_1").val("2");  jQuery("#gform_1").trigger("submit",[true]); } '></div></div><div
+id=gform_page_1_2 class='gform_page page-2' style=display:none;><div
+class=gform_page_fields><ul
+id=gform_fields_1_2 class='gform_fields top_label form_sublabel_below description_below'><li
+id=field_1_8  class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ></li><li
+id=field_1_9  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label
+class=gfield_label for=input_1_9 ></label><div
+class='ginput_container ginput_container_text'><input
+name=input_9 id=input_1_9 type=text value class=medium    placeholder='Phone Number...'  aria-invalid=false></div></li></ul></div><div
+class=gform_page_footer>
+<input
+type=button id=gform_previous_button_1_12 class='gform_previous_button button' value=Previous  onclick='jQuery("#gform_target_page_number_1").val("1");  jQuery("#gform_1").trigger("submit",[true]); ' onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_1").val("1");  jQuery("#gform_1").trigger("submit",[true]); } '> <input
+type=button id=gform_next_button_1_12 class='gform_next_button button' value=Next  onclick='jQuery("#gform_target_page_number_1").val("3");  jQuery("#gform_1").trigger("submit",[true]); ' onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_1").val("3");  jQuery("#gform_1").trigger("submit",[true]); } '></div></div><div
+id=gform_page_1_3 class='gform_page page-3' style=display:none;><div
+class=gform_page_fields><ul
+id=gform_fields_1_3 class='gform_fields top_label form_sublabel_below description_below'><li
+id=field_1_13  class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><p
+class=nex-text>Hi {name}, which qualifications would you like help with?</p></li><li
+id=field_1_17  class='gfield field-17 gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible' ><label
+class=gfield_label  ><span
+class=gfield_required>*</span></label><div
+class='ginput_container ginput_container_radio'><ul
+class=gfield_radio id=input_1_17><li
+class=gchoice_1_17_0><input
+name=input_17 type=radio value=GCSE  id=choice_1_17_0><label
+for=choice_1_17_0 id=label_1_17_0><p
+class=qual-title>GCSE</p><div
+class=badges><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='lazyload radio-image'><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='lazyload radio-image'><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='lazyload radio-image'></div></label></li><li
+class=gchoice_1_17_1><input
+name=input_17 type=radio value=A-Level  id=choice_1_17_1><label
+for=choice_1_17_1 id=label_1_17_1><p
+class=qual-title>A-Level</p><div
+class=badges><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='lazyload radio-image'><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='lazyload radio-image'><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='lazyload radio-image'></div></label></li><li
+class=gchoice_1_17_2><input
+name=input_17 type=radio value='University Applications'  id=choice_1_17_2><label
+for=choice_1_17_2 id=label_1_17_2><p
+class=qual-title>University Applications</p><div
+class=badges><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-308.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-308.png'><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-330.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-330.png' class='lazyload radio-image'></div></label></li></ul></div></li></ul></div><div
+class=gform_page_footer>
+<input
+type=button id=gform_previous_button_1_18 class='gform_previous_button button' value=Previous  onclick='jQuery("#gform_target_page_number_1").val("2");  jQuery("#gform_1").trigger("submit",[true]); ' onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_1").val("2");  jQuery("#gform_1").trigger("submit",[true]); } '> <input
+type=button id=gform_next_button_1_18 class='gform_next_button button' value=Next  onclick='jQuery("#gform_target_page_number_1").val("4");  jQuery("#gform_1").trigger("submit",[true]); ' onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_1").val("4");  jQuery("#gform_1").trigger("submit",[true]); } '></div></div><div
+id=gform_page_1_4 class='gform_page page-4' style=display:none;><div
+class=gform_page_fields><ul
+id=gform_fields_1_4 class='gform_fields top_label form_sublabel_below description_below'><li
+id=field_1_24  class='gfield gsection field_sublabel_below field_description_below gfield_visibility_hidden' ><h2 class='gsection_title'></h2></li><li
+id=field_1_20  class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ></li><li
+id=field_1_23  class='gfield subject-select field_sublabel_below field_description_below gfield_visibility_visible' ><label
+class=gfield_label  ></label><div
+class='ginput_container ginput_container_checkbox'><ul
+class=gfield_checkbox id=input_1_23><li
+class=gchoice_1_23_1>
+<input
+name=input_23.1 type=checkbox  value='GCSE Biology'  id=choice_1_23_1>
+<label
+for=choice_1_23_1 id=label_1_23_1><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='lazyload radio-image'><div
+class=text><p
+class=title>GCSE Biology</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></label></li><li
+class=gchoice_1_23_2>
+<input
+name=input_23.2 type=checkbox  value='GCSE Chemistry'  id=choice_1_23_2>
+<label
+for=choice_1_23_2 id=label_1_23_2><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='lazyload radio-image'><div
+class=text><p
+class=title>GCSE Chemistry</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></label></li><li
+class=gchoice_1_23_3>
+<input
+name=input_23.3 type=checkbox  value=Physics  id=choice_1_23_3>
+<label
+for=choice_1_23_3 id=label_1_23_3><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='lazyload radio-image'><div
+class=text><p
+class=title>GCSE Physics</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></label></li></ul></div></li><li
+id=field_1_25  class='gfield gsection field_sublabel_below field_description_below gfield_visibility_hidden' ><h2 class='gsection_title'></h2></li><li
+id=field_1_27  class='gfield field-27 gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ></li><li
+id=field_1_28  class='gfield subject-select field_sublabel_below field_description_below gfield_visibility_visible' ><label
+class=gfield_label  ></label><div
+class='ginput_container ginput_container_checkbox'><ul
+class=gfield_checkbox id=input_1_28><li
+class=gchoice_1_28_1>
+<input
+name=input_28.1 type=checkbox  value='A-Level Biology'  id=choice_1_28_1>
+<label
+for=choice_1_28_1 id=label_1_28_1><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='lazyload radio-image'><div
+class=text><p
+class=title>A-Level Biology</p><p
+class=sub-title>Edexcel | AQA | OCR | Eduqas</p></div></label></li><li
+class=gchoice_1_28_2>
+<input
+name=input_28.2 type=checkbox  value='A-Level Chemistry'  id=choice_1_28_2>
+<label
+for=choice_1_28_2 id=label_1_28_2><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='lazyload radio-image'><div
+class=text><p
+class=title>A-Level Chemistry</p><p
+class=sub-title>Edexcel | AQA | OCR | Eduqas</p></div></label></li><li
+class=gchoice_1_28_3>
+<input
+name=input_28.3 type=checkbox  value='A-Level Physics'  id=choice_1_28_3>
+<label
+for=choice_1_28_3 id=label_1_28_3><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='lazyload radio-image'><div
+class=text><p
+class=title>A-Level Physics</p><p
+class=sub-title>Edexcel | AQA | OCR | Eduqas</p></div></label></li></ul></div></li><li
+id=field_1_30  class='gfield gsection field_sublabel_below field_description_below gfield_visibility_hidden' ><h2 class='gsection_title'></h2></li><li
+id=field_1_31  class='gfield field-31 gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ></li><li
+id=field_1_29  class='gfield subject-select field-29 field_sublabel_below field_description_below gfield_visibility_visible' ><label
+class=gfield_label  ></label><div
+class='ginput_container ginput_container_checkbox'><ul
+class=gfield_checkbox id=input_1_29><li
+class=gchoice_1_29_1>
+<input
+name=input_29.1 type=checkbox  value=UCAT  id=choice_1_29_1>
+<label
+for=choice_1_29_1 id=label_1_29_1><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/UCAT-Logo.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/UCAT-Logo.png' class='lazyload radio-image'><p>UCAT<br>Exam</p></label></li><li
+class=gchoice_1_29_2>
+<input
+name=input_29.2 type=checkbox  value=BMAT  id=choice_1_29_2>
+<label
+for=choice_1_29_2 id=label_1_29_2><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/BMAT-Logo.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/BMAT-Logo.png' class='lazyload radio-image'><p>BMAT<br>Exam</p></label></li><li
+class=gchoice_1_29_3>
+<input
+name=input_29.3 type=checkbox  value='A-Level Physics'  id=choice_1_29_3>
+<label
+for=choice_1_29_3 id=label_1_29_3><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-330.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-330.png' class='lazyload radio-image'><p>Dentistry Interview</p></label></li><li
+class=gchoice_1_29_4>
+<input
+name=input_29.4 type=checkbox  value='Medicine Interview'  id=choice_1_29_4>
+<label
+for=choice_1_29_4 id=label_1_29_4><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-308.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-308.png'><p>Medicine Interview</p></label></li></ul></div></li><li
+id=field_1_32  class='gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible' ><label
+class=gfield_label for=input_1_32 >Email</label><div
+class=ginput_container><input
+name=input_32 id=input_1_32 type=text value></div><div
+class=gfield_description id=gfield_description__32>This field is for validation purposes and should be left unchanged.</div></li></ul></div><div
+class='gform_page_footer top_label'><input
+type=submit id=gform_previous_button_1 class='gform_previous_button button' value=Previous  onclick='if(window["gf_submitting_1"]){return false;}  window["gf_submitting_1"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} window["gf_submitting_1"]=true;  jQuery("#gform_1").trigger("submit",[true]); }'> <input
+type=submit id=gform_submit_button_1 class='gform_button button' value=Submit  onclick='if(window["gf_submitting_1"]){return false;}  window["gf_submitting_1"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} window["gf_submitting_1"]=true;  jQuery("#gform_1").trigger("submit",[true]); }'> <input
+type=hidden name=gform_ajax value='form_id=1&amp;title=&amp;description=&amp;tabindex=0'>
+<input
+type=hidden class=gform_hidden name=is_submit_1 value=1>
+<input
+type=hidden class=gform_hidden name=gform_submit value=1>
+<input
+type=hidden class=gform_hidden name=gform_unique_id value>
+<input
+type=hidden class=gform_hidden name=state_1 value='WyJbXSIsImZhYzRjM2FjOWZkYmQ4MmVmMzJhNjFkZDk2NmYxMDA4Il0='>
+<input
+type=hidden class=gform_hidden name=gform_target_page_number_1 id=gform_target_page_number_1 value=2>
+<input
+type=hidden class=gform_hidden name=gform_source_page_number_1 id=gform_source_page_number_1 value=1>
+<input
+type=hidden name=gform_field_values value></div></div></div></form></div>
+<iframe
+style=display:none;width:0px;height:0px; src=about:blank name=gform_ajax_frame_1 id=gform_ajax_frame_1>This iframe contains the logic required to handle Ajax powered Gravity Forms.</iframe> <script>jQuery(document).ready(function($){gformInitSpinner( 1, 'https://studymind.co.uk/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://studymind.co.uk/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;}, 50);}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [1, current_page]);} );} );</script> </div><div
+class=mobile-form><div
+class='gf_browser_safari gf_browser_iphone gform_wrapper gf-studymind_wrapper' id=gform_wrapper_7 style=display:none><form
+method=post enctype=multipart/form-data target=gform_ajax_frame_7 id=gform_7 class=gf-studymind action=/resource/edexcel-a-level-biology/><div
+class=gform_body><div
+id=gform_page_7_1 class='gform_page page-1' ><div
+class=gform_page_fields><ul
+id=gform_fields_7 class='gform_fields top_label form_sublabel_below description_below'><li
+id=field_7_3  class='gfield field-3 gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/04/Mohil.png' alt="mohil founder of study mind"></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/04/Mohil.png' alt="mohil founder of study mind"><p
+class=nex-text>Hi, I'm Mohil, founder of Study Mind. I'd love to create a personalised plan for 1-to-1 tutoring</p></li><li
+id=field_7_4  class='gfield field-4 field_sublabel_below field_description_below gfield_visibility_visible' ><label
+class=gfield_label for=input_7_4 ></label><div
+class='ginput_container ginput_container_text'><input
+name=input_4 id=input_7_4 type=text value class=medium    placeholder=Name...  aria-invalid=false></div></li><li
+id=field_7_9  class='gfield field-9 field_sublabel_below field_description_below gfield_visibility_visible' ><label
+class=gfield_label for=input_7_9 ></label><div
+class='ginput_container ginput_container_text'><input
+name=input_9 id=input_7_9 type=text value class=medium    placeholder='Phone Number...'  aria-invalid=false></div></li></ul></div><div
+class=gform_page_footer>
+<input
+type=button id=gform_next_button_7_11 class='gform_next_button button' value=Next  onclick='jQuery("#gform_target_page_number_7").val("2");  jQuery("#gform_7").trigger("submit",[true]); ' onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_7").val("2");  jQuery("#gform_7").trigger("submit",[true]); } '></div></div><div
+id=gform_page_7_2 class='gform_page page-2' style=display:none;><div
+class=gform_page_fields><ul
+id=gform_fields_7_2 class='gform_fields top_label form_sublabel_below description_below'><li
+id=field_7_13  class='gfield field-13 gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><p
+class=nex-text>Hi {name}, which qualifications would you like help with?</p></li><li
+id=field_7_17  class='gfield field-17 gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible' ><label
+class=gfield_label  ><span
+class=gfield_required>*</span></label><div
+class='ginput_container ginput_container_radio'><ul
+class=gfield_radio id=input_7_17><li
+class=gchoice_7_17_0><input
+name=input_17 type=radio value=GCSE  id=choice_7_17_0><label
+for=choice_7_17_0 id=label_7_17_0><p
+class=qual-title>GCSE</p><div
+class=badges><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='lazyload radio-image'><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='lazyload radio-image'><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='lazyload radio-image'></div></label></li><li
+class=gchoice_7_17_1><input
+name=input_17 type=radio value=A-Level  id=choice_7_17_1><label
+for=choice_7_17_1 id=label_7_17_1><p
+class=qual-title>A-Level</p><div
+class=badges><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='lazyload radio-image'><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='lazyload radio-image'><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='lazyload radio-image'></div></label></li><li
+class=gchoice_7_17_2><input
+name=input_17 type=radio value='University Applications'  id=choice_7_17_2><label
+for=choice_7_17_2 id=label_7_17_2><p
+class=qual-title>University Applications</p><div
+class=badges><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-308.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-308.png'><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-330.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-330.png' class='lazyload radio-image'></div></label></li></ul></div></li></ul></div><div
+class=gform_page_footer>
+<input
+type=button id=gform_previous_button_7_12 class='gform_previous_button button' value=Previous  onclick='jQuery("#gform_target_page_number_7").val("1");  jQuery("#gform_7").trigger("submit",[true]); ' onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_7").val("1");  jQuery("#gform_7").trigger("submit",[true]); } '> <input
+type=button id=gform_next_button_7_12 class='gform_next_button button' value=Next  onclick='jQuery("#gform_target_page_number_7").val("3");  jQuery("#gform_7").trigger("submit",[true]); ' onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_7").val("3");  jQuery("#gform_7").trigger("submit",[true]); } '></div></div><div
+id=gform_page_7_3 class='gform_page page-3' style=display:none;><div
+class=gform_page_fields><ul
+id=gform_fields_7_3 class='gform_fields top_label form_sublabel_below description_below'><li
+id=field_7_20  class='gfield field-20 gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ></li><li
+id=field_7_24  class='gfield gsection field_sublabel_below field_description_below gfield_visibility_hidden' ><h2 class='gsection_title'></h2></li><li
+id=field_7_23  class='gfield subject-select field-23 field_sublabel_below field_description_below gfield_visibility_visible' ><label
+class=gfield_label  ></label><div
+class='ginput_container ginput_container_checkbox'><ul
+class=gfield_checkbox id=input_7_23><li
+class=gchoice_7_23_1>
+<input
+name=input_23.1 type=checkbox  value='GCSE Biology'  id=choice_7_23_1>
+<label
+for=choice_7_23_1 id=label_7_23_1><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='lazyload radio-image'><div
+class=text><p
+class=title>GCSE Biology</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></label></li><li
+class=gchoice_7_23_2>
+<input
+name=input_23.2 type=checkbox  value='GCSE Chemistry'  id=choice_7_23_2>
+<label
+for=choice_7_23_2 id=label_7_23_2><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='lazyload radio-image'><div
+class=text><p
+class=title>GCSE Chemistry</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></label></li><li
+class=gchoice_7_23_3>
+<input
+name=input_23.3 type=checkbox  value=Physics  id=choice_7_23_3>
+<label
+for=choice_7_23_3 id=label_7_23_3><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='lazyload radio-image'><div
+class=text><p
+class=title>GCSE Physics</p><p
+class=sub-title>Edexcel | AQA | OCR</p></div></label></li></ul></div></li><li
+id=field_7_25  class='gfield gsection field_sublabel_below field_description_below gfield_visibility_hidden' ><h2 class='gsection_title'></h2></li><li
+id=field_7_27  class='gfield field-27 gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ></li><li
+id=field_7_28  class='gfield subject-select field-28 field_sublabel_below field_description_below gfield_visibility_visible' ><label
+class=gfield_label  ></label><div
+class='ginput_container ginput_container_checkbox'><ul
+class=gfield_checkbox id=input_7_28><li
+class=gchoice_7_28_1>
+<input
+name=input_28.1 type=checkbox  value='A-Level Biology'  id=choice_7_28_1>
+<label
+for=choice_7_28_1 id=label_7_28_1><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/Group-70.png' class='lazyload radio-image'><div
+class=text><p
+class=title>A-Level Biology</p><p
+class=sub-title>Edexcel | AQA | OCR | Eduqas</p></div></label></li><li
+class=gchoice_7_28_2>
+<input
+name=input_28.2 type=checkbox  value='A-Level Chemistry'  id=choice_7_28_2>
+<label
+for=choice_7_28_2 id=label_7_28_2><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Chem.png' class='lazyload radio-image'><div
+class=text><p
+class=title>A-Level Chemistry</p><p
+class=sub-title>Edexcel | AQA | OCR | Eduqas</p></div></label></li><li
+class=gchoice_7_28_3>
+<input
+name=input_28.3 type=checkbox  value='A-Level Physics'  id=choice_7_28_3>
+<label
+for=choice_7_28_3 id=label_7_28_3><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/GCSE-Physics.png' class='lazyload radio-image'><div
+class=text><p
+class=title>A-Level Physics</p><p
+class=sub-title>Edexcel | AQA | OCR | Eduqas</p></div></label></li></ul></div></li><li
+id=field_7_34  class='gfield gsection field_sublabel_below field_description_below gfield_visibility_hidden' ><h2 class='gsection_title'></h2></li><li
+id=field_7_31  class='gfield field-31 gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ></li><li
+id=field_7_29  class='gfield subject-select field-29 field_sublabel_below field_description_below gfield_visibility_visible' ><label
+class=gfield_label  ></label><div
+class='ginput_container ginput_container_checkbox'><ul
+class=gfield_checkbox id=input_7_29><li
+class=gchoice_7_29_1>
+<input
+name=input_29.1 type=checkbox  value=UCAT  id=choice_7_29_1>
+<label
+for=choice_7_29_1 id=label_7_29_1><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/UCAT-Logo.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/UCAT-Logo.png' class='lazyload radio-image'><p>UCAT</p></label></li><li
+class=gchoice_7_29_2>
+<input
+name=input_29.2 type=checkbox  value=BMAT  id=choice_7_29_2>
+<label
+for=choice_7_29_2 id=label_7_29_2><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/BMAT-Logo.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/BMAT-Logo.png' class='lazyload radio-image'><p>BMAT</p></label></li><li
+class=gchoice_7_29_3>
+<input
+name=input_29.3 type=checkbox  value='A-Level Physics'  id=choice_7_29_3>
+<label
+for=choice_7_29_3 id=label_7_29_3><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-330.png' class='radio-image'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-330.png' class='lazyload radio-image'><p>Dentistry Interview</p></label></li><li
+class=gchoice_7_29_4>
+<input
+name=input_29.4 type=checkbox  value='Medicine Interview'  id=choice_7_29_4>
+<label
+for=choice_7_29_4 id=label_7_29_4><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-308.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/06/Group-308.png'><p>Medicine Interview</p></label></li></ul></div></li><li
+id=field_7_35  class='gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible' ><label
+class=gfield_label for=input_7_35 >Email</label><div
+class=ginput_container><input
+name=input_35 id=input_7_35 type=text value></div><div
+class=gfield_description id=gfield_description__35>This field is for validation purposes and should be left unchanged.</div></li></ul></div><div
+class='gform_page_footer top_label'><input
+type=submit id=gform_previous_button_7 class='gform_previous_button button' value=Previous  onclick='if(window["gf_submitting_7"]){return false;}  window["gf_submitting_7"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_7"]){return false;} window["gf_submitting_7"]=true;  jQuery("#gform_7").trigger("submit",[true]); }'> <input
+type=submit id=gform_submit_button_7 class='gform_button button' value=Submit  onclick='if(window["gf_submitting_7"]){return false;}  window["gf_submitting_7"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_7"]){return false;} window["gf_submitting_7"]=true;  jQuery("#gform_7").trigger("submit",[true]); }'> <input
+type=hidden name=gform_ajax value='form_id=7&amp;title=&amp;description=&amp;tabindex=0'>
+<input
+type=hidden class=gform_hidden name=is_submit_7 value=1>
+<input
+type=hidden class=gform_hidden name=gform_submit value=7>
+<input
+type=hidden class=gform_hidden name=gform_unique_id value>
+<input
+type=hidden class=gform_hidden name=state_7 value='WyJbXSIsImZhYzRjM2FjOWZkYmQ4MmVmMzJhNjFkZDk2NmYxMDA4Il0='>
+<input
+type=hidden class=gform_hidden name=gform_target_page_number_7 id=gform_target_page_number_7 value=2>
+<input
+type=hidden class=gform_hidden name=gform_source_page_number_7 id=gform_source_page_number_7 value=1>
+<input
+type=hidden name=gform_field_values value></div></div></div></form></div>
+<iframe
+style=display:none;width:0px;height:0px; src=about:blank name=gform_ajax_frame_7 id=gform_ajax_frame_7>This iframe contains the logic required to handle Ajax powered Gravity Forms.</iframe> <script>jQuery(document).ready(function($){gformInitSpinner( 7, 'https://studymind.co.uk/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery('#gform_ajax_frame_7').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_7');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_7').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_7').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_7').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_7').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_7').val();gformInitSpinner( 7, 'https://studymind.co.uk/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery(document).trigger('gform_page_loaded', [7, current_page]);window['gf_submitting_7'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_7').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [7]);window['gf_submitting_7'] = false;}, 50);}else{jQuery('#gform_7').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [7, current_page]);} );} );</script> </div></div></div><div
+class=subject-grid><div
+class=resource-intro><h2>Navigate Elsewhere...</h2><p></p></div><div
+class=selectors>
+<button
+class=purple-button id=gcse-selector>GCSE</button>
+<button
+id=a-level-selector>A-Level</button></div><div
+class="subject-buttons-grid gcse"><div
+class=item>
+<a
+href=https://studymind.co.uk/resource/aqa-biology>
+<button
+class=Biology data=GCSE>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"><p>AQA Biology</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://studymind.co.uk/resource/aqa-chemistry>
+<button
+class=Chemistry data=GCSE>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"><p>AQA Chemistry</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://studymind.co.uk/resource/aqa-physics>
+<button
+class=Physics data=GCSE>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Physics-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Physics-Badge.png"><p>AQA Physics</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://studymind.co.uk/resource/ocr-gcse-biology>
+<button
+class=Biology data=GCSE>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"><p>OCR Biology</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://studymind.co.uk/resource/ocr-gcse-chemistry>
+<button
+class=Chemistry data=GCSE>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"><p>OCR Chemistry</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://studymind.co.uk/resource/ocr-gcse-physics>
+<button
+class=Physics data=GCSE>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Physics-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Physics-Badge.png"><p>OCR Physics</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://studymind.co.uk/resource/edexcel-biology>
+<button
+class=Biology data=GCSE>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"><p>Edexcel Biology</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://studymind.co.uk/resource/edexcel-chemistry>
+<button
+class=Chemistry data=GCSE>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"><p>Edexcel Chemistry</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://studymind.co.uk/resource/edexcel-physics>
+<button
+class=Physics data=GCSE>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Physics-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Physics-Badge.png"><p>Edexcel Physics</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://studymind.co.uk/resource/igcse-biology>
+<button
+class=Biology data=GCSE>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"><p>IGCSE Biology</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://studymind.co.uk/resource/igcse-chemistry>
+<button
+class=Chemistry data=GCSE>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"><p>IGCSE Chemistry</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://studymind.co.uk/resource/igcse-physics>
+<button
+class=Physics data=GCSE>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Physics-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Physics-Badge.png"><p>IGCSE Physics</p>
+</button>
+</a></div></div><div
+class="a-level-wrapper change"><h2>Biology</h2><div
+class="subject-buttons-grid alevel"><div
+class=item>
+<a
+href=aqa-a-level-biology>
+<button
+class=Biology data=A-level >
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"><p>AQA</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://www.medicmind.co.uk/biology-aqa-old.html>
+<button
+class=Biology data=A-level >
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"><p>AQA (Old)</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=edexcel-a-level-biology>
+<button
+class=Biology data=A-level >
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"><p>Edexcel</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://www.medicmind.co.uk/biology-edexcel-old.html>
+<button
+class=Biology data=A-level >
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"><p>Edexcel (Old)</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=ocr-a-level-biology>
+<button
+class=Biology data=A-level >
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"><p>OCR A</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://www.medicmind.co.uk/biology-ocr-b.html>
+<button
+class=Biology data=A-level >
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"><p>OCR B</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://www.medicmind.co.uk/biology-ocr-old.html>
+<button
+class=Biology data=A-level >
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"><p>OCR (Old)</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://www.medicmind.co.uk/biology-wjec-england.html>
+<button
+class=Biology data=A-level >
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"><p>WJEC (England)</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://www.medicmind.co.uk/biology-wjec-old.html>
+<button
+class=Biology data=A-level >
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Biology-Badge.png"><p>WJEC (Old)</p>
+</button>
+</a></div></div><h2>Chemistry</h2><div
+class="subject-buttons-grid alevel"><div
+class=item>
+<a
+href=aqa-a-level-chemistry>
+<button
+class=Chemistry data=A-level>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"><p>AQA</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://www.medicmind.co.uk/chemistry-aqa-old.html>
+<button
+class=Chemistry data=A-level>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"><p>AQA (Old)</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=edexcel-a-level-chemistry>
+<button
+class=Chemistry data=A-level>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"><p>Edexcel</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://www.medicmind.co.uk/chemistry-edexcel-old.html>
+<button
+class=Chemistry data=A-level>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"><p>Edexcel (Old)</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=ocr-a-level-chemistry>
+<button
+class=Chemistry data=A-level>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"><p>OCR A</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://www.medicmind.co.uk/chemistry-ocr-b.html>
+<button
+class=Chemistry data=A-level>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"><p>OCR B</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://www.medicmind.co.uk/chemistry-ocr-old.html>
+<button
+class=Chemistry data=A-level>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"><p>OCR (Old)</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://www.medicmind.co.uk/chemistry-wjec-england.html>
+<button
+class=Chemistry data=A-level>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"><p>WJEC (England)</p>
+</button>
+</a></div><div
+class=item>
+<a
+href=https://www.medicmind.co.uk/chemistry-wjec-old.html>
+<button
+class=Chemistry data=A-level>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Chemistry-Badge.png"><p>WJEC (Old)</p>
+</button>
+</a></div></div><h2>Physics</h2><div
+class="subject-buttons-grid alevel"><div
+class=item>
+<a
+href=aqa-a-level-physics>
+<button
+class=Physics data=A-level>
+<noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Physics-Badge.png"></noscript><img
+src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://studymind.co.uk/wp-content/uploads/2019/04/Physics-Badge.png"><p>AQA</p>
+</button>
+</a></div></div></div></div></div><footer
+id=colophon class=site-footer><div
+class=desktop-footer><div
+class=upper-footer><div
+class=site-info><div
+class=site-branding>
+<a
+href=https://studymind.co.uk><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-Logo-features-compared.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-Logo-features-compared.png'></a><p
+class=site-title><a
+href=https://studymind.co.uk/ rel=home>Study <span>Mind</span></a></p></div></div><hr><div
+class=footer-menus><div
+class="footer-menu-1 footer-menu"><div
+id=nav_menu-2 class="widget widget_nav_menu"><h2 class="widgettitle">A-Level</h2><div
+class=menu-footer-menu-1-container><ul
+id=menu-footer-menu-1 class=menu><li
+id=menu-item-188 class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-188"><a
+href=https://studymind.co.uk/subject/a-level-biology/>Biology</a></li><li
+id=menu-item-187 class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-187"><a
+href=https://studymind.co.uk/subject/a-level-chemistry/>Chemistry</a></li><li
+id=menu-item-186 class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-186"><a
+href=https://studymind.co.uk/subject/a-level-physics/>Physics</a></li></ul></div></div></div><div
+class="footer-menu-2 footer-menu"><div
+id=nav_menu-3 class="widget widget_nav_menu"><h2 class="widgettitle">GCSE</h2><div
+class=menu-footer-menu-2-container><ul
+id=menu-footer-menu-2 class=menu><li
+id=menu-item-185 class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-185"><a
+href=https://studymind.co.uk/subject/gcse-biology/>Biology</a></li><li
+id=menu-item-165 class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-165"><a
+href=https://studymind.co.uk/subject/gcse-chemistry/>Chemistry</a></li><li
+id=menu-item-164 class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-164"><a
+href=https://studymind.co.uk/subject/gcse-physics/>Physics</a></li></ul></div></div></div><div
+class="footer-menu-3 footer-menu"><div
+id=nav_menu-4 class="widget widget_nav_menu"><h2 class="widgettitle">Resources</h2><div
+class=menu-footer-menu-3-container><ul
+id=menu-footer-menu-3 class=menu><li
+id=menu-item-191 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a
+href=https://studymind.co.uk/past-papers/>Past Papers</a></li><li
+id=menu-item-190 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a
+href=https://studymind.co.uk/top-tips/>Top Tips</a></li><li
+id=menu-item-189 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189"><a
+href=https://studymind.co.uk/blog/>Blog</a></li></ul></div></div></div><div
+class="footer-menu-4 footer-menu"><div
+id=text-2 class="widget widget_text"><div
+class=textwidget><p>Coming soon</p></div></div><div
+id=nav_menu-8 class="widget widget_nav_menu"><h2 class="widgettitle">Online Classroom</h2><div
+class=menu-footer-menu-4-container><ul
+id=menu-footer-menu-4 class=menu><li
+id=menu-item-194 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-194"><a
+href=#>Biology Mind</a></li><li
+id=menu-item-195 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-195"><a
+href=#>Chemistry Mind</a></li><li
+id=menu-item-196 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-196"><a
+href=#>Physics Mind</a></li></ul></div></div></div><div
+class="footer-menu-5 footer-menu"><div
+id=nav_menu-7 class="widget widget_nav_menu"><h2 class="widgettitle">Contact Us</h2><div
+class=menu-footer-menu-5-container><ul
+id=menu-footer-menu-5 class=menu><li
+id=menu-item-197 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197"><a
+href=https://studymind.co.uk/book-consultation/>Book consultation</a></li><li
+id=menu-item-199 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-199"><a
+href=https://studymind.co.uk/contact-us/>Contact Us</a></li></ul></div></div></div></div></div><div
+class=lower-footer><div
+id=custom_html-2 class="widget_text widget widget_custom_html"><div
+class="textwidget custom-html-widget"><div
+class=social-links>
+<a
+href=#>
+<i
+class="far fa-envelope"></i><p>info@studymind.co.uk</p>
+</a>
+<a
+href=#>
+<i
+class="fab fa-facebook"></i><p>Study Mind</p>
+</a>
+<a
+href=#>
+<noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/phone.png' alt="call Study Mind"></noscript><img
+src='https://studymind.co.uk/wp-content/themes/studymind/img/phone.png' alt="call Study Mind"><p>+ 44 7443022232</p>
+</a>
+<a
+href=#>
+<i
+class="fab fa-whatsapp"></i><p>Message from your phone</p>
+</a></div><div
+class=final-info><p>All lessons or courses booked are non-refundable once purchase has been made, except if our customer service team deems appropriate.</p></div></div></div><p
+class=copyright>Copyright © 2019 Study Mind. All rights reserved.   /   Privacy   /   Terms of Use   /   Cookies</p></div></div><div
+class=mobile-footer><div
+class=upper-footer><div
+class=site-info><div
+class=site-branding>
+<a
+href=https://studymind.co.uk><noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-Logo-features-compared.png'></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-Logo-features-compared.png'></a><p
+class=site-title><a
+href=https://studymind.co.uk/ rel=home>Study <span>Mind</span></a></p></div></div></div><hr><div
+class=middle-footer><div
+class=footer-menus><div
+class="footer-menu-1 footer-menu"><div
+id=nav_menu-2 class="widget widget_nav_menu"><h2 class="widgettitle">A-Level</h2><div
+class=menu-footer-menu-1-container><ul
+id=menu-footer-menu-6 class=menu><li
+class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-188"><a
+href=https://studymind.co.uk/subject/a-level-biology/>Biology</a></li><li
+class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-187"><a
+href=https://studymind.co.uk/subject/a-level-chemistry/>Chemistry</a></li><li
+class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-186"><a
+href=https://studymind.co.uk/subject/a-level-physics/>Physics</a></li></ul></div></div></div><div
+class="footer-menu-2 footer-menu"><div
+id=nav_menu-3 class="widget widget_nav_menu"><h2 class="widgettitle">GCSE</h2><div
+class=menu-footer-menu-2-container><ul
+id=menu-footer-menu-7 class=menu><li
+class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-185"><a
+href=https://studymind.co.uk/subject/gcse-biology/>Biology</a></li><li
+class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-165"><a
+href=https://studymind.co.uk/subject/gcse-chemistry/>Chemistry</a></li><li
+class="menu-item menu-item-type-post_type menu-item-object-subject menu-item-164"><a
+href=https://studymind.co.uk/subject/gcse-physics/>Physics</a></li></ul></div></div></div><div
+class="footer-menu-3 footer-menu"><div
+id=nav_menu-4 class="widget widget_nav_menu"><h2 class="widgettitle">Resources</h2><div
+class=menu-footer-menu-3-container><ul
+id=menu-footer-menu-8 class=menu><li
+class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a
+href=https://studymind.co.uk/past-papers/>Past Papers</a></li><li
+class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a
+href=https://studymind.co.uk/top-tips/>Top Tips</a></li><li
+class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189"><a
+href=https://studymind.co.uk/blog/>Blog</a></li></ul></div></div></div></div></div><div
+class=lower-footer><div
+id=custom_html-3 class="widget_text widget widget_custom_html"><h2 class="widgettitle">Contact Us</h2><div
+class="textwidget custom-html-widget"><div
+class=social-links>
+<a
+href=#>
+<i
+class="far fa-envelope"></i>
+</a>
+<a
+href=#>
+<i
+class="fab fa-facebook"></i>
+</a>
+<a
+href=#>
+<noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/phone-mobile-version.png' alt="call Study Mind"></noscript><img
+src='https://studymind.co.uk/wp-content/uploads/2019/05/phone-mobile-version.png' alt="call Study Mind">
+</a>
+<a
+href=#>
+<i
+class="fab fa-whatsapp"></i>
+</a></div><div
+class=final-info>
+<a
+href=#>Terms of Use</a>
+<a
+href=#>Privacy</a>
+<a
+href=#>Cookies</a></div></div></div><p>© 2019 Study Mind. All rights reserved.</p>
+<a
+href=https://studymind.co.uk/ class=custom-logo-link rel=home><noscript><img
+width='111' height='111' src='https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_111/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo.png' class='custom-logo' alt="STUDY MIND" srcset="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_111/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo.png 111w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_90/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-90x90.png 90w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_110/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-110x110.png 110w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_68/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-68x68.png 68w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_85/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-85x85.png 85w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_55/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-55x55.png 55w" sizes="(max-width: 111px) 100vw, 111px"></noscript><img
+width='111' height='111' src='https://cdn.shortpixel.ai/client/q_lqip,ret_wait/https://studymind.co.uk/wp-content/uploads/2019/04/Physics-Badge.png ' data-src='https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_111/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo.png' class='lazyload custom-logo' alt="STUDY MIND" data-srcset="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_111/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo.png 111w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_90/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-90x90.png 90w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_110/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-110x110.png 110w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_68/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-68x68.png 68w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_85/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-85x85.png 85w, https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_55/https://studymind.co.uk/wp-content/uploads/2019/04/Study-Mind-logo-55x55.png 55w" data-sizes="(max-width: 111px) 100vw, 111px"></a></div></div></footer></div><style>.lazyload,.lazyloading{opacity:0;}.lazyloaded{opacity:1;transition:opacity 300ms;}</style><noscript><style>.lazyload{display:none;}</style></noscript><script data-noptimize=1>window.lazySizesConfig=window.lazySizesConfig||{};window.lazySizesConfig.loadMode=1;</script><script async data-noptimize=1 src=https://studymind.co.uk/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js></script><script data-noptimize=1>function c_webp(A){var n=new Image;n.onload=function(){var e=0<n.width&&0<n.height;A(e)},n.onerror=function(){A(!1)},n.src='data:image/webp;base64,UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA=='}function s_webp(e){window.supportsWebP=e}c_webp(s_webp);document.addEventListener('lazybeforeunveil',function({target:c}){supportsWebP&&['data-src','data-srcset'].forEach(function(a){attr=c.getAttribute(a),null!==attr&&c.setAttribute(a,attr.replace(/\/client\//,'/client/to_webp,'))})});</script><link
+rel=stylesheet id=gforms_reset_css-css  href='https://studymind.co.uk/wp-content/plugins/gravityforms/css/formreset.min.css?ver=2.4.9.5' type=text/css media=all><link
+rel=stylesheet id=gforms_formsmain_css-css  href='https://studymind.co.uk/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=2.4.9.5' type=text/css media=all><link
+rel=stylesheet id=gforms_ready_class_css-css  href='https://studymind.co.uk/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=2.4.9.5' type=text/css media=all> <script src='https://studymind.co.uk/wp-content/themes/studymind/js/resources.js?ver=1.01'></script> <script src='https://studymind.co.uk/wp-content/themes/studymind/js/navigation.js?ver=20151215'></script> <script src='https://studymind.co.uk/wp-content/themes/studymind/js/skip-link-focus-fix.js?ver=20151215'></script> <script src='https://studymind.co.uk/wp-content/themes/studymind/js/scroll-appear.min.js?ver=1.01'></script> <script src='https://studymind.co.uk/wp-content/themes/studymind/js/microinteractions.js?ver=1.01'></script> <script src='https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js?ver=1.01'></script> <script src='https://studymind.co.uk/wp-includes/js/wp-embed.min.js?ver=5.2.1'></script> <script src='https://studymind.co.uk/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.9.5'></script> <script>var gf_global = {"gf_currency_config":{"name":"Pound Sterling","symbol_left":"&#163;","symbol_right":"","symbol_padding":" ","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/studymind.co.uk\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/studymind.co.uk\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+var gf_global = {"gf_currency_config":{"name":"Pound Sterling","symbol_left":"&#163;","symbol_right":"","symbol_padding":" ","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/studymind.co.uk\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/studymind.co.uk\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};</script> <script src='https://studymind.co.uk/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.4.9.5'></script> <script src='https://studymind.co.uk/wp-content/plugins/gravityforms/js/conditional_logic.min.js?ver=2.4.9.5'></script> <script src='https://studymind.co.uk/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.4.9.5'></script> <script>jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 1) {gf_global["number_formats"][1] = {"3":{"price":false,"value":false},"4":{"price":false,"value":false},"11":{"price":false,"value":false},"8":{"price":false,"value":false},"9":{"price":false,"value":false},"12":{"price":false,"value":false},"13":{"price":false,"value":false},"17":{"price":false,"value":false},"18":{"price":false,"value":false},"24":{"price":false,"value":false},"20":{"price":false,"value":false},"23":{"price":false,"value":false},"25":{"price":false,"value":false},"27":{"price":false,"value":false},"28":{"price":false,"value":false},"30":{"price":false,"value":false},"31":{"price":false,"value":false},"29":{"price":false,"value":false},"32":{"price":false,"value":false}};if(window['jQuery']){if(!window['gf_form_conditional_logic'])window['gf_form_conditional_logic'] = new Array();window['gf_form_conditional_logic'][1] = { logic: { 11: {"field":null,"nextButton":{"actionType":"show","logicType":"any","rules":[{"fieldId":"4","operator":"isnot","value":""}]},"section":null},12: {"field":null,"nextButton":{"actionType":"show","logicType":"any","rules":[{"fieldId":"9","operator":"isnot","value":""}]},"section":null},18: {"field":null,"nextButton":{"actionType":"show","logicType":"any","rules":[{"fieldId":"17","operator":"is","value":"GCSE"},{"fieldId":"17","operator":"is","value":"A-Level"},{"fieldId":"17","operator":"is","value":"University Applications"}]},"section":null},24: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"GCSE"}]},"nextButton":null,"section":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"GCSE"}]}},20: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"17","operator":"is","value":"GCSE"}]},"nextButton":null,"section":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"GCSE"}]}},25: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"A-Level"}]},"nextButton":null,"section":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"A-Level"}]}},27: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"A-Level"}]},"nextButton":null,"section":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"A-Level"}]}},30: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"University Applications"}]},"nextButton":null,"section":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"University Applications"}]}},0: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"23","operator":"is","value":"GCSE Biology"},{"fieldId":"23","operator":"is","value":"GCSE Chemistry"},{"fieldId":"23","operator":"is","value":"Physics"},{"fieldId":"28","operator":"is","value":"A-Level Biology"},{"fieldId":"28","operator":"is","value":"A-Level Chemistry"},{"fieldId":"28","operator":"is","value":"A-Level Physics"},{"fieldId":"29","operator":"is","value":"UCAT"},{"fieldId":"29","operator":"is","value":"BMAT"},{"fieldId":"29","operator":"is","value":"A-Level Physics"},{"fieldId":"29","operator":"is","value":"Medicine Interview"}]},"section":null} }, dependents: { 11: [11],12: [12],18: [18],24: [24,20,23],20: [20],25: [25,27,28],27: [27],30: [30,31,29,32],0: [0] }, animation: 0, defaults: [], fields: {"3":[0],"4":[0,11],"11":[0],"8":[0],"9":[0,12],"12":[0],"13":[0],"17":[0,18,24,24,20,20,25,25,27,27,30,30],"18":[0],"24":[0],"20":[0],"23":[0],"25":[0],"27":[0],"28":[0],"30":[0],"31":[0],"29":[0],"32":[0]} }; if(!window['gf_number_format'])window['gf_number_format'] = 'decimal_dot';jQuery(document).ready(function(){gf_apply_rules(1, [11,12,18,24,20,25,27,30,0], true);jQuery('#gform_wrapper_1').show();jQuery(document).trigger('gform_post_conditional_logic', [1, null, true]);} );} if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script>jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [1, 1]) } );</script><script>jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 7) {gf_global["number_formats"][7] = {"3":{"price":false,"value":false},"4":{"price":false,"value":false},"9":{"price":false,"value":false},"11":{"price":false,"value":false},"13":{"price":false,"value":false},"17":{"price":false,"value":false},"12":{"price":false,"value":false},"20":{"price":false,"value":false},"24":{"price":false,"value":false},"23":{"price":false,"value":false},"25":{"price":false,"value":false},"27":{"price":false,"value":false},"28":{"price":false,"value":false},"34":{"price":false,"value":false},"31":{"price":false,"value":false},"29":{"price":false,"value":false},"35":{"price":false,"value":false}};if(window['jQuery']){if(!window['gf_form_conditional_logic'])window['gf_form_conditional_logic'] = new Array();window['gf_form_conditional_logic'][7] = { logic: { 11: {"field":null,"nextButton":{"actionType":"show","logicType":"any","rules":[{"fieldId":"4","operator":"isnot","value":""}]},"section":null},12: {"field":null,"nextButton":{"actionType":"show","logicType":"any","rules":[{"fieldId":"9","operator":"isnot","value":""}]},"section":null},20: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"17","operator":"is","value":"GCSE"}]},"nextButton":null,"section":null},24: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"GCSE"}]},"nextButton":null,"section":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"GCSE"}]}},25: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"A-Level"}]},"nextButton":null,"section":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"A-Level"}]}},27: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"A-Level"}]},"nextButton":null,"section":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"A-Level"}]}},34: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"University Applications"}]},"nextButton":null,"section":{"actionType":"show","logicType":"all","rules":[{"fieldId":"17","operator":"is","value":"University Applications"}]}},0: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"23","operator":"is","value":"GCSE Biology"},{"fieldId":"23","operator":"is","value":"GCSE Chemistry"},{"fieldId":"23","operator":"is","value":"Physics"},{"fieldId":"28","operator":"is","value":"A-Level Biology"},{"fieldId":"28","operator":"is","value":"A-Level Chemistry"},{"fieldId":"28","operator":"is","value":"A-Level Physics"},{"fieldId":"29","operator":"is","value":"UCAT"},{"fieldId":"29","operator":"is","value":"BMAT"},{"fieldId":"29","operator":"is","value":"A-Level Physics"},{"fieldId":"29","operator":"is","value":"Medicine Interview"}]},"section":null} }, dependents: { 11: [11],12: [12],20: [20],24: [24,23],25: [25,27,28],27: [27],34: [34,31,29,35],0: [0] }, animation: 0, defaults: [], fields: {"3":[0],"4":[0,11],"9":[0,12],"11":[0],"13":[0],"17":[0,20,24,24,25,25,27,27,34,34],"12":[0],"20":[0],"24":[0],"23":[0],"25":[0],"27":[0],"28":[0],"34":[0],"31":[0],"29":[0],"35":[0]} }; if(!window['gf_number_format'])window['gf_number_format'] = 'decimal_dot';jQuery(document).ready(function(){gf_apply_rules(7, [11,12,20,24,25,27,34,0], true);jQuery('#gform_wrapper_7').show();jQuery(document).trigger('gform_post_conditional_logic', [7, null, true]);} );} if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script>jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [7, 1]) } );</script> </body></html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using disk: enhanced 
+Database Caching using disk (Request-wide modification query)
+
+Served from: studymind.co.uk @ 2019-06-12 08:15:55 by W3 Total Cache
+-->

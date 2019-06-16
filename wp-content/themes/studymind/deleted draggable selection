@@ -1,0 +1,118 @@
+<div class="horizontal-selection">
+
+		<?php if( have_rows('review_boxes', $copy) ) {
+			
+			?>
+		<ul>
+			<?php $count= 1;
+		    while ( have_rows('review_boxes', $copy) ) : the_row();
+		    	//echo $count;
+			?>
+
+				<li>
+					<button class="node <?php if ($count == 2) { echo "selected";} ?>" <?php if ($count == 2) { echo "draggable = 'true'";} ?> id="node-<?php echo $count ?>">
+					</button>
+
+				</li>
+				<?php if ($count < sizeof(get_field('review_boxes', $copy))) {
+					?>
+					<hr>
+					<?php
+				}
+			$count++;
+			endwhile;
+			?>
+		</ul>
+	</div>
+
+	<?php
+		}
+		?>
+
+	function reviewScroll() {
+	let reviews = document.querySelectorAll('.review-box');
+	let nodes = document.querySelectorAll('.node');
+
+	// add event listeners on all the buttons.
+
+	const selector = document.querySelector('.horizontal-selection');
+
+	//listening for events on all buttons
+	// selector.addEventListener('dragstart', function() {
+	// 	event.dataTransfer.setData( 'text/plain', '' );
+	// 	e.preventDefault();
+	// 	//e.dataTransfer.effectAllowed = "copyMove";
+	// });
+	// selector.addEventListener('dragover', function() {
+	// 	e.preventDefault();
+	// 	e.dataTransfer.effectAllowed = "copyMove";
+	// });
+	selector.addEventListener('dragenter', moveReview);
+	selector.addEventListener('click', moveReview)
+		
+		function moveReview(e){
+			e.preventDefault();
+			if(e.target.className.includes('node') || e.target.parentElement.className.includes('node')) {
+				let selected = e.target.id || e.target.parentElement.id;
+				let box = selected.replace( /^\D+/g, '');
+				console.log(box);	
+
+				// reset all boxes classes
+				reviews.forEach(function(item) {
+						console.log(item.className);
+						item.className = "review-box";
+					})
+
+				// setting each boxes class
+
+				// add class to first review box
+				let leftBox;
+				if (box == 1) {
+					leftBox = reviews.length;
+				} else {
+					leftBox = Number(box)-1;
+				}
+
+				let leftBoxClass = "review-"+leftBox;
+				//console.log(leftBoxClass);
+				document.getElementById(leftBoxClass).className += " first-review";
+
+				// add class to last shown review box
+
+				let rightBox;
+				if (box == reviews.length) {
+					rightBox = 1;
+				} else {
+					rightBox = Number(box)+1; 
+				}
+
+				let rightBoxClass = "review-"+rightBox;
+				//console.log(rightBoxClass);
+				document.getElementById(rightBoxClass).className += " third-review";		
+
+				// add class to selected review box
+				let selectedBoxClass = "review-"+box;
+				//console.log(selectedBoxClass);
+				document.getElementById(selectedBoxClass).className += " featured-review";
+
+				// Node logic
+				nodes.forEach(function(item) {
+					console.log(item);
+					item.className = "node"
+					item.setAttribute('draggable', false);
+				})
+
+				let selectedNode = "node-"+box;
+				document.getElementById(selectedNode).className = "node selected";
+				document.getElementById(selectedNode).draggable = "true";
+
+				// hide other review boxes
+
+				reviews.forEach(function(item) {
+						if(item.className == "review-box") {
+							item.className += " review-hidden";
+						}
+				})
+			} // end of if statement
+		}
+};

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="331.313" height="218.667" viewBox="0 0 331.313 218.667">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.012" y1="0.876" x2="0.983" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fade21"/>
+      <stop offset="1" stop-color="#f5911e"/>
+    </linearGradient>
+  </defs>
+  <g id="Pentagon" transform="translate(-878.727 -6162)">
+    <path id="Path_72" data-name="Path 72" d="M1210.04,6176.124a13.956,13.956,0,0,0-13.7-14.124H892.424a13.957,13.957,0,0,0-13.7,14.124V6346.5l165.657,34.167L1210.04,6346.5Z" fill="#f5911e"/>
+    <path id="Path_73" data-name="Path 73" d="M1210.04,6175.7a13.736,13.736,0,0,0-13.7-13.7H892.424a13.737,13.737,0,0,0-13.7,13.7v165.213l165.657,33.131,165.656-33.131Z" fill="url(#linear-gradient)"/>
+    <path id="Path_74" data-name="Path 74" d="M1210.04,6175.7a13.736,13.736,0,0,0-13.7-13.7H892.424a13.737,13.737,0,0,0-13.7,13.7v165.213l165.657,33.131,165.656-33.131Z" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

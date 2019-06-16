@@ -1,0 +1,131 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+// Column width with margin
+@mixin column-width($numberColumns: 3) {
+	width: map-get( $columns, $numberColumns ) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
+}
+
+// Mark's mixins
+
+// Text
+
+@mixin header2($colour: #8F278B) {
+	font-family: "Poppins", Arial, sans-serif;
+	font-size: 2.75em;
+	font-weight: 600;
+	color: $colour;
+	margin: calc(60/1160 * 100vh) 0 calc(40/1160 * 100vh) 0;
+	@media all and (max-width: 1000px) {
+		font-size: 1.3125em;
+	}
+}
+
+@mixin header3() {
+	color: #CD1562;
+	font-family: "Poppins";
+	font-size: 2.4375em;
+	font-weight: 600;
+	margin: 0 0 calc(20/#{$vp-height} * 100vh) 0;
+	@media all and (max-width: 1000px) {
+		font-size: 1.125em;
+	}
+}
+
+@mixin subhead() {
+	font-family: "Poppins", Arial, sans-serif;
+	font-size: 1.25em;
+	font-weight: 400;
+	color: #EB5D60;
+	text-transform: uppercase;
+	@media all and (max-width: 1000px) {
+		font-size: 0.8em;
+	}
+}
+
+@mixin description($size: 1.25em) {
+	font-family: "Poppins", Arial, sans-serif;
+	font-weight: 400;
+	font-size: $size;
+	line-height: 2em;
+	color: #666666;
+	@media all and (max-width: 1150px) {
+		font-size: 1.1em;
+	}
+	@media all and (max-width: 1000px) {
+		width: 100%;
+		text-align: left;
+		font-size: 0.875em;
+	}
+}
+
+@mixin comparisonLists($marginTop, $size: 1.086em) {
+	margin: calc(#{$marginTop}/1920 * 100vw) 0 0 0;
+	padding: 0 calc(35/1920 * 100vw);
+	text-align: center;
+	li {
+				list-style: none;
+				font-family: "Poppins", Arial, sans-serif;
+				font-size: $size;
+				font-weight: 300;
+				line-height: 1.4375em;
+				height: (59/1920 * 100vw);
+				margin-bottom: calc(20/1920*100vw);
+			}
+}
+
+@mixin comparisonh3() {
+	margin: 0;
+	font-family: "Poppins", Arial, sans-serif;
+	font-weight: 600;
+	font-size: 1.76em;
+	color: #fff; 
+}
+
+@mixin clearButtonStyles() {
+		background: none;
+		color: inherit;
+		border: none;
+		padding: 0;
+		font: inherit;
+		cursor: pointer;
+		outline: inherit;
+}
+
+@mixin bookingButton() {
+	background-color: #fff;
+	color: inherit;
+	border: solid 1px #EB5D60;
+	border-radius: 20.5px;
+	padding: calc(15/#{$vp-height} * 100vh) (20/1920*100vw);
+	width: (250/1920*100vw);
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	color: #EB5D60;
+	font-family: "Poppins", Arial, sans-serif;
+	font-size: 1.1875em;
+	font-weight: 400;
+}

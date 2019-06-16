@@ -1,0 +1,148 @@
+@charset "UTF-8";
+.booking-form .desktop-booking-form {
+  width: 48.4026041667vw;
+  min-height: 32.0739583333vw;
+  margin: 5.7291666667vw auto 7.8125vw;
+  border-radius: 14.8px;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  padding: 0 2.6041666667vw;
+  padding-top: 4.6875vw;
+  position: relative; }
+  @media all and (max-width: 1000px) {
+    .booking-form .desktop-booking-form {
+      display: none; } }
+  .booking-form .desktop-booking-form .paper-plane {
+    border-radius: 80px;
+    border: solid 1px #fff;
+    background: linear-gradient(to right, #e44067 0%, #662d89 100%);
+    width: 4.9479166667vw;
+    height: 4.9479166667vw;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: -2.34375vw;
+    left: 21.8229166667vw;
+    margin-bottom: 2.0833333333vw; }
+    .booking-form .desktop-booking-form .paper-plane img {
+      position: absolute;
+      top: 25%;
+      left: 25%;
+      width: calc(45/1920*100vw);
+      height: calc(45/1920*100vw); }
+  .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields {
+    font-size: 0.8333333333vw; }
+    .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .gfield .gfield_description {
+      font-family: "Open Sans";
+      font-weight: 400;
+      font-size: 0.95em;
+      color: #E6E6E6; }
+    .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .gfield label {
+      font-family: "Open Sans";
+      font-weight: bold;
+      font-size: 1em;
+      line-height: 1.146875em;
+      text-align: left;
+      color: #666; }
+    .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .gfield .ginput_container input, .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .gfield .ginput_container textarea {
+      border: none;
+      border-bottom: 1px solid #B3B3B3; }
+    .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .gfield .ginput_container textarea {
+      height: 4.1666666667vw; }
+    .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .gfield .ginput_container input::placeholder {
+      font-family: "Open Sans";
+      font-weight: 400;
+      font-size: 0.95em;
+      color: #E6E6E6; }
+    .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-3 .form-heading {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2.8645833333vw; }
+      .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-3 .form-heading h2 {
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 2.3125em;
+        line-height: 1.5em;
+        text-align: left;
+        color: #91278d;
+        margin: 0; }
+        .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-3 .form-heading h2 span {
+          color: #ED5D60; }
+      .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-3 .form-heading .free-button {
+        width: 4.91875vw;
+        border-radius: 19px;
+        border: 1px solid #e83b68; }
+        .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-3 .form-heading .free-button p {
+          font-family: "Poppins";
+          font-weight: 600;
+          font-size: 1.6875em;
+          line-height: 1.08375em;
+          text-align: center;
+          color: #e83b68;
+          opacity: 0.79;
+          padding: 0.625vw;
+          margin: 0; }
+    .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-1 {
+      margin-bottom: 0.78125vw;
+      padding-right: 2.8645833333vw; }
+    .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-4 {
+      margin-bottom: 0.78125vw;
+      padding-right: 2.8645833333vw; }
+      .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-4 .ginput_container_checkbox .gfield_checkbox .gchoice_3_4_7 {
+        width: 100%; }
+      .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-4 .ginput_container_checkbox .gfield_checkbox li {
+        margin-bottom: 10px; }
+        .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-4 .ginput_container_checkbox .gfield_checkbox li input {
+          border: none; }
+        .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-4 .ginput_container_checkbox .gfield_checkbox li input[type=checkbox] {
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          -o-appearance: none;
+          outline: none;
+          content: none; }
+        .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-4 .ginput_container_checkbox .gfield_checkbox li input[type=checkbox]:before {
+          content: '✓';
+          font-size: 1em;
+          font-weight: 600;
+          color: transparent !important;
+          background: #fff;
+          display: block;
+          width: 20px;
+          height: 20px;
+          border: 2px solid #666;
+          margin-right: 7px;
+          padding: 2px;
+          line-height: 0.8em; }
+        .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-4 .ginput_container_checkbox .gfield_checkbox li input[type=checkbox]:checked:before {
+          color: #fff !important;
+          background-color: #91278D; }
+    .booking-form .desktop-booking-form .gform_wrapper .gform_body .gform_fields .field-9 {
+      margin-top: calc(-30/1920*100vw);
+      padding-right: 2.8645833333vw; }
+  .booking-form .desktop-booking-form .gform_wrapper .gform_footer {
+    margin-left: auto;
+    position: relative;
+    bottom: 6.25vw;
+    left: 21.3541666667vw;
+    margin-bottom: -3.6458333333vw;
+    padding: 0;
+    margin: 0 5vw;
+    width: 50%; }
+    .booking-form .desktop-booking-form .gform_wrapper .gform_footer .gform_button {
+      width: 9.9911458333vw;
+      height: 2.9020833333vw;
+      border-radius: 24.09px;
+      background: linear-gradient(to right, #e44067 0%, #662d89 100%);
+      font-family: "Poppins";
+      font-weight: 500;
+      line-height: 1.5em;
+      text-align: center;
+      color: #fff;
+      position: relative;
+      top: 3.3854166667vw;
+      margin: 0 auto;
+      cursor: pointer;
+      padding: 0;
+      line-height: 0; }
+
+/*# sourceMappingURL=booking-form.css.map */

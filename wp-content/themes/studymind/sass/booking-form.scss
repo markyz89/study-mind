@@ -1,0 +1,207 @@
+.booking-form {
+	.desktop-booking-form {
+		@media all and (max-width: 1000px) {
+			display: none;
+		}
+		width: (929.33/1920*100vw);
+		min-height: (615.82/1920*100vw);
+		margin: (110/1920*100vw) auto (150/1920*100vw);
+		border-radius: 14.8px;
+		background: #fff;
+		box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+		padding: 0 (50/1920*100vw);
+		padding-top: (90/1920*100vw);
+		position: relative;
+		.paper-plane {
+			border-radius: 80px;
+			border: solid 1px #fff;
+			background: linear-gradient(to right, #e44067 0%, #662d89 100%);
+			width: (95/1920*100vw);
+			height: (95/1920*100vw);
+			text-align: center;
+    		margin: 0 auto;
+    		position: absolute;
+		    top: (-45/1920*100vw);
+		    left: (419/1920*100vw);
+		    margin-bottom: (40/1920*100vw);
+		    img {
+		    	//padding: calc(23/1920*100vw) calc(22/1920*100vw); 
+		    	position: absolute;
+			    top: 25%;
+			    left: 25%;
+		        width: calc(45/1920*100vw);
+		        height: calc(45/1920*100vw);
+		    }
+		}
+
+
+		.gform_wrapper {
+			.gform_body {
+				.gform_fields {
+					font-size: (16/1920*100vw);
+					.gfield {
+						.gfield_description {
+							font-family: "Open Sans";
+							font-weight: 400;
+							font-size: 0.95em;
+							color: #E6E6E6;
+						}
+						label {
+							font-family: "Open Sans";
+							font-weight: bold;
+							font-size: 1em;
+							line-height: 1.146875em;
+							text-align: left;
+							color: #666;
+						}
+						.ginput_container {
+							input, textarea {
+								border: none;
+								border-bottom: 1px solid #B3B3B3;
+							}
+							textarea {
+								height: (80/1920*100vw);
+							}
+							input::placeholder {
+								font-family: "Open Sans";
+								font-weight: 400;
+								font-size: 0.95em;
+								color: #E6E6E6;
+							}
+						}
+					}
+					.field-3 {
+						.form-heading {
+							display: flex;
+							justify-content: space-between;
+							margin-bottom: (55/1920*100vw);
+							h2 {
+								font-family: "Poppins";
+								font-weight: 600;
+								font-size: 2.3125em;
+								line-height: 1.5em;
+								text-align: left;
+								color: #91278d;
+								margin: 0;
+								span {
+									color: #ED5D60;
+								}
+							}
+							.free-button {
+								width: (94.44/1920*100vw);
+								//height: (56.29/1920*100vw);
+								border-radius: 19px;
+								border: 1px solid #e83b68;
+
+								p {
+									font-family: "Poppins";
+									font-weight: 600;
+									font-size: 1.6875em;
+									line-height: 1.08375em;
+									text-align: center;
+									color: #e83b68;
+									opacity: 0.79;
+									padding: (12/1920*100vw);
+									margin: 0;
+
+								}
+							}
+						}
+					}
+					.field-1 {
+						margin-bottom: (15/1920*100vw);
+						padding-right: (55/1920*100vw);
+					}
+					.field-2 {
+
+					}
+					.field-4 {
+						margin-bottom: (15/1920*100vw);
+						padding-right: (55/1920*100vw);
+						.ginput_container_checkbox {
+							.gfield_checkbox {
+								.gchoice_3_4_7 {
+									width: 100%;
+								}
+								li {
+									margin-bottom: 10px;
+									
+									input {
+										border: none;
+									}
+									input[type=checkbox] {
+										-moz-appearance:none;
+										-webkit-appearance:none;
+										-o-appearance:none;
+										outline: none;
+										content: none;	
+									}
+
+									input[type=checkbox]:before {
+									    content: '✓';
+									    font-size: 1em;
+									    font-weight: 600;
+									    color: transparent !important;
+									    background: #fff;
+									    display: block;
+									    width: 20px;
+									    height: 20px;
+									    border: 2px solid #666;
+									    margin-right: 7px;
+								        padding: 2px;
+								        line-height: 0.8em;
+									}
+
+									input[type=checkbox]:checked:before {
+
+										color: #fff !important;
+									    background-color: #91278D;
+									}
+								}
+							}
+						}
+					}
+					.field-5 {
+
+					}
+					.field-9 {
+						margin-top: calc(-30/1920*100vw);
+						padding-right: (55/1920*100vw);
+					}
+				}
+			}
+			.gform_footer {
+				margin-left: auto;
+				position: relative;
+				bottom: (120/1920*100vw);
+				left: (410/1920*100vw);
+				margin-bottom: (-70/1920*100vw);
+				padding: 0;
+				margin: 0 5vw; 
+				width: 50%;
+				.gform_button {
+					width: (191.83/1920*100vw);
+					height: (55.72/1920*100vw);
+					border-radius: 24.09px;
+					background: linear-gradient(to right, #e44067 0%, #662d89 100%);
+					font-family: "Poppins";
+					font-weight: 500;
+					// font-size: 1.229375em !important;
+					line-height: 1.5em;
+					text-align: center;
+					color: #fff;
+					position: relative;
+					top: (65/1920*100vw);
+					margin: 0 auto;
+					cursor: pointer;
+					padding: 0;
+					line-height: 0;
+					
+				    
+				}
+			}
+		} 
+		
+	}
+}
+

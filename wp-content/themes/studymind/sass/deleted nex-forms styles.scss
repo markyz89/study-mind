@@ -1,0 +1,702 @@
+.the_input_element {
+			display: flex;
+			img {
+			    height: calc(163/#{$site-width} * 100vw);
+			    width: calc(163/#{$site-width} * 100vw);
+			    margin-right: calc(60/#{$site-width} * 100vw);
+			    @media all and (max-width: 750px) {
+			    	height: calc(70/725 * 100vh);
+			    }
+			}
+		}	
+	}
+	// #nex-forms .ui-nex-forms-container {
+	// 	@media all and (max-width: 1600px) {
+	// 		font-size: (16/1600*100vw);
+	// 	}
+	// }
+
+	#nex-forms .ui-nex-forms-container {
+		font-size: (10/1920*100vw);
+	}
+	
+	.nex-text, .mobile-nex-text {
+		color: #E9E7E7;
+			// font-size: calc(25/#{$vp-height} * 100vh);
+			font-family: "Poppins", Arial, sans-serif;
+			font-weight: 300;	
+			margin: 0;
+			strong {
+				color: #fff;
+			}
+	}
+	.nex-text {
+		font-family: "Poppins";
+		font-weight: 400;		
+		font-size: 2.25em;
+		// @media all and (max-width: 1600px) {
+		// 	font-size: 1.75em;
+		// }
+	}
+	.mobile-nex-text {
+		@media all and (min-width: 920px) {
+			display: none;
+		}
+		@media all and (max-width: 500px) {
+			font-size: 0.8125em;
+		}
+	}
+	#nex-forms .form_field p {
+    	color: #e9e7e7;
+	}
+	
+
+	#nex-forms .ui-nex-forms-container input[type="text"], #nex-forms .ui-nex-forms-container textarea.form-control {
+		border: none;
+	    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); 
+	    width: (459/1920*100vw);
+	    height: (80/1920*100vw) !important;
+	    border-radius: 14.8px;
+	    font-size: 1.875em !important;
+	    padding: 0 (28/1920*100vw);
+	    margin: auto 0;
+
+	}
+	.cta-form #nex-forms .ui-nex-forms-container input[type="text"]::placeholder {
+			color: orange;
+	}
+
+	#nex-forms .submit-button button.btn {
+		background-color: #00A1A9;
+		height: (56/1920*100vw);
+		border-radius: 11.79px;
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+		color: #F6F6F6;
+		font-family: "Poppins", Arial, sans-serif !important;
+		font-weight: 400;	
+		//margin-left: (55/1920*100vw) !important;
+		font-size: 1.875em !important;
+		margin-top: (10/1920*100vw) !important;
+		padding: (15/1920*100vw) (40/1920*100vw) !important;
+		line-height: 1em;
+		// position: relative;
+		// // bottom: (60/1920 * 100vw);
+		// left: (150/1160 * 100vh);
+	}
+
+	#_62390, #_75865 {
+		left: (222/1920 * 100vw) !important;
+		top: calc(-68/1920 * 100vw) !important;
+	}
+
+	// #_63330, #_41108 {
+	// 	display: block !important;
+	// }
+
+	#cta-name-input {
+
+	}
+	#cta-phone-input {
+
+	}
+
+	.success_header {
+		display: none;
+	}
+
+	#_31539 {
+		height: (123/1920*100vw);
+	}
+
+	#nex-forms span.img-thumbnail {
+		background-color: #fff;
+		border-radius: 13.65px;
+		width: calc(379/1920*100vw);
+		height: (123/1920*100vw);
+		padding-top: unset !important;
+		p {
+			font-family: "Poppins", Arial, sans-serif;
+			font-weight: 600;	
+			font-size: 1.76em;
+			color: #7C7979;
+			margin-left: (170/1920*100vw);
+			@media all and (max-width: 1600px) {
+				font-size: 1.5em;
+				margin-left: (150/1920*100vw);
+			}
+		}
+		.title {
+			margin-top: calc(20/1920*100vw);
+		}
+		.qual-title{
+			margin-top: calc(50/1920*100vw);
+		}
+		.sub-title {
+			font-size: 1.3225em;
+			font-family: "Poppins", Arial, sans-serif;
+			font-weight: 300;	
+		}
+	}
+
+	#nex-forms #_92545 span.img-thumbnail {
+		padding-top: (35/1920*100vw) !important;
+		padding-bottom: (15/1920*100vw) !important;
+		p {
+			margin-left: calc(150/1920*100vw);
+			@media all and (max-width: 1600px) {
+				font-size: 1.4em;
+			}
+		}
+		.sub-title {
+			@media all and (max-width: 1600px) {
+				font-size: 1.25em; 
+			}
+		}
+	}
+
+	.the-radios {
+	    display: flex;
+    	justify-content: space-between;
+	}
+
+	#nex-forms .radio-image {
+		height: (85/1920*100vw);
+		width: (85/1920*100vw);
+		margin: (20/1920*100vw) (30/1920*100vw);
+		top: -5px;
+	}
+
+	#nex-forms #_41108 span.img-thumbnail .title {
+		margin-top: 0;
+	}
+
+	#nex-forms #_41108 .radio-image, #nex-forms #_59137 .radio-image {
+		width: (78/1920*100vw);
+		height: (90/1920*100vw);
+	}
+
+	#nex-forms .single-image-select-group label.radio-inline, #nex-forms .multi-image-select-group label.radio-inline {
+		width: calc(379/1920*100vw) !important;
+		//margin-right: (50/1920*100vw);
+		margin-right: 0;
+		height: unset;
+	}
+
+	#nex-forms .single-image-select-group .radio_selected, #nex-forms .multi-image-select-group .radio_selected {
+		color: #E7D7F2;
+	}
+
+	#nex-forms .single-image-select-group #the-radios .has-pretty-child a, #nex-forms .multi-image-select-group #the-radios .has-pretty-child a {
+		display: none;
+	}
+
+	#_94266 #nex-forms .submit-button button.btn {
+		margin-left: 0;
+	}
+
+	#nex-forms .nex_success_message .msg_box {
+	    background-color: transparent;
+	    border: none;
+		width: (880/1920 * 100vw);
+		padding: 0;
+		font-size: (16/1920*100vw);
+		p {
+			font-size: 2.125em;
+			font-family: "Poppins", Arial, sans-serif; 
+			font-weight: 400;	
+			line-height: 1.125em;
+			color: #e9e7e7;
+		}
+		// @media all and (max-width: 1600px) {
+		// 	font-size: 1.75em;
+		// }
+		img {
+			padding: (70/1920*100vw) 0;
+		}
+		.whatsapp-button {
+			display: flex;
+			// font-size: (16/1920 * 100vw);
+			text-align: center;
+			margin-bottom: (50/1160 * 100vh);
+			margin-top: (-10/1160 * 100vh);
+			font-family: "Poppins", Arial, sans-serif;
+			font-weight: 400;	
+			font-size: 1.7em;
+			color: #23AF30;
+			text-decoration: none;
+			border: 1px solid rgba(112,112,112, 0.2);
+			box-shadow: 0 0 5px rgba(112,112,112, 0.2);
+			border-radius: 11.79px;
+			width: (451/1920 * 100vw);
+			margin: 0 auto;
+			padding: calc(15/1920 * 100vw) calc(105/1920 * 100vw) calc(15/1920 * 100vw) calc(105/1920 * 100vw);
+			background-color: #fff;
+			align-items: center;
+			img {
+				width: (40/1920 * 100vw);
+				height: (40/1920 * 100vw);
+				vertical-align: middle;
+				margin-left: (18/1920 * 100vw);
+				padding: 0
+			}
+		}
+	}
+
+	 // Mobile version of the contact form
+		
+
+	
+	.mobile-form {
+		font-size: (16/367*100vw);
+		padding-top: (10/725*100vh);
+		margin: 0 auto;
+		text-align: center;
+		@media all and (min-width: 1001px) {
+			display: none;
+		}
+		#nex-forms button.the_input_element, #nex-forms input.the_input_element, #nex-forms select.the_input_element, #nex-forms textarea.the_input_element {
+			margin: 0 auto !important;
+		}
+		#nex-forms .align_left {
+			text-align: center !important;
+		}
+		.the_input_element {
+			display: block;
+			margin: 0 auto !important;
+			.face {
+			    height: (65/367 * 100vw);
+			    width: (65/367 * 100vw);
+			}
+			.arrow {
+				margin-bottom: (35/725*100vh);
+			}
+		}
+			.cta-form #_6029, .cta-form #_29101 {
+				padding: 0;
+			}
+
+			#nex-forms .ui-nex-forms-container {
+				font-size: (16/367*100vw);
+			}
+			
+			.nex-text, .mobile-nex-text {
+				
+			}
+			.nex-text {
+			
+			}
+			.mobile-nex-text {
+			
+			}
+			#nex-forms .form_field p {
+		    	font-size: 1.0625em;
+		    	font-family: "Poppins", Arial, sans-serif !important;
+		    	font-weight: 400 !important;	
+		    	text-align: center;
+		    	margin-bottom: (40/725*100vh);
+			}
+			#nex-forms #_94570 .nex-text {
+				margin-bottom: 0;
+			}
+
+			#nex-forms div.ui-nex-forms-container #_94570 {
+				margin-bottom: 0;
+			}
+
+
+			#nex-forms .ui-nex-forms-container input[type="text"], #nex-forms .ui-nex-forms-container textarea.form-control {
+				// width: (259.85/367*100vw);
+				// height: (46.1/367*100vw) !important;
+				// font-size: 1.0625em !important;
+				// font-family: "Poppins", Arial, sans-serif !important;
+				// font-weight: 400;	
+				// padding: (10/267*100vw) (15/267*100vw);	
+			}
+			// .cta-form #nex-forms .ui-nex-forms-container input[type="text"]::placeholder {
+			// 	font-size: 1.0625em;	
+			// }
+
+			#nex-forms .submit-button button.btn {
+				font-size: 1.0625em !important;
+				font-family: "Poppins", Arial, sans-serif !important;
+				font-weight: 400;	
+				height: (34/367*100vw);
+				width: (93/367*100vw);
+				border: none;
+				padding: (10/367*100vw) (30/367*100vw);
+				margin-top: (35/367 * 100vw) !important;		
+			}
+
+			#nex-forms #_76516 button.btn {
+				background-color: transparent;
+				width: (259.85/367*100vw);
+				height: (46.1/367*100vw) !important;
+				border: 1px solid #fff;
+			}
+
+			#_62390, #_75865 {
+				
+			}
+
+			// #_63330, #_41108 {
+			// 	display: block !important;
+			// }
+
+			#cta-name-input {
+
+			}
+			#cta-phone-input {
+
+			}
+
+			.success_header {
+				
+			}
+
+			#nex-forms .row {
+				//display: flex;
+			}
+
+			#_31539 {
+				min-height: (123/1920*100vw);
+				height: auto;
+			}
+
+			#nex-forms .single-image-select-group label.radio-inline, .cta-form #nex-forms .multi-image-select-group label.radio-inline {
+				width: (215/367*100vw) !important;
+				margin: (15/367*100vw) auto;
+				margin-left: auto !important;
+				height: 70px;
+				margin-bottom: 0;
+			}
+
+			#_50387 .nex-text {
+				margin-bottom: 0 !important;
+			}
+
+
+			#nex-forms span.img-thumbnail {
+				width: (215/367*100vw);
+				height: (70/367*100vw);
+				margin: 0 auto;
+				padding-top: (10/367 *100vw) !important;
+				p {
+					font-size: 1em;
+					font-family: "Poppins";
+					font-weight: 600;	
+				}
+				.sub-title {
+					
+				}
+			}
+
+			#nex-forms #_92545 span.img-thumbnail {
+				width: (215/367*100vw);
+				height: (70/367*100vw);
+				line-height: 1.3;			
+
+				p {
+					font-size: 1em;
+					font-family: "Poppins";
+					font-weight: 600;	
+					margin-bottom: 0;
+					margin-left: calc(80/367*100vw);
+					text-align: left;
+				}
+				.sub-title {
+					font-size: 0.75em;
+				}
+			}
+
+			#nex-forms #_92545 span.img-thumbnail {
+				padding-top: calc(15/367*100vw) !important;
+			}
+
+			.v7_container {
+				height: unset !important;
+			}
+
+			.the-radios {
+				display: flex;
+		 		flex-wrap: wrap;
+			}
+
+			#nex-forms .radio-image {
+				height: (48/367*100vw);
+				width: (48/367*100vw);
+				left: 30px;
+			    position: absolute;
+			    top: 30px;
+			}
+
+			#nex-forms .grid_input_holder .col-xs-6 {
+				float: right;
+			}
+
+			#nex-forms .multi-image-select-group .input_container.col-sm-12 label, #nex-forms .single-image-select-group .input_container.col-sm-12 label{
+				width: 80% !important;
+			}
+
+			#nex-forms .multi-image-select-group label.radio-inline {
+				height: unset;
+				margin-bottom: 0;
+				margin-left: auto !important; 
+				margin: 0 auto;
+			}
+
+			#nex-forms .single-image-select-group label.radio-inline, #nex-forms .multi-image-select-group label.radio-inline {
+				
+			}
+
+			#nex-forms .single-image-select-group .radio_selected, #nex-forms .multi-image-select-group .radio_selected {
+				
+			}
+
+			#nex-forms .single-image-select-group #the-radios .has-pretty-child a, #nex-forms .multi-image-select-group #the-radios .has-pretty-child a {
+				
+			}
+
+			#_94266 #nex-forms .submit-button button.btn {
+			
+			}
+
+			#nex-forms .nex_success_message .msg_box {
+				width: (254/367 * 100vw);
+				p {
+					font-size: 1.0625em;
+					line-height: 1.8125em;
+					margin-bottom: calc(20/367*100vw);
+				}
+				// @media all and (max-width: 1600px) {
+				// 	font-size: 1.75em;
+				// }
+				.face {
+					height: (65/367*100vw);
+					width: (65/367*100vw);
+					padding: 0;
+				}
+				.arrow {
+					margin-bottom: (40/367*100vw);
+				}
+				.whatsapp-button {
+					font-size: 1.0625em;
+					width: (256/367*100vw);
+					height: (50.95/367*100vw);
+					padding: calc(6/367 * 100vw) calc(25/367 * 100vw) calc(6/367 * 100vw) calc(25/367 * 100vw);
+					img {
+						width: (24/367*100vw);
+						height: (24/367*100vw);
+						margin-bottom: 0;
+						margin-left: (20/367*100vw);
+					}
+				}
+			}
+
+	}
+
+
+}
+
+.cta-2 {
+	padding: calc(95/1920 * 100vh) calc(345/1920 * 100vw);
+	@media all and (max-width: 1000px) {
+		padding: 5vw; 
+	}
+	.desktop-form-2 {
+		width: (1250/1920*100vw);
+		margin: 0 auto; 
+		@media all and (max-width: 1000px) {
+			display: none;
+		}
+	}
+	// #_66648 #nex-forms .align_left {
+	// 	text-align: right !important;
+	// 	@media all and (max-width: 1400px) {
+	// 		text-align: center !important;
+	// 	}
+	// }
+	#nex-forms .ui-nex-forms-container .the_input_element p.free-button {
+		font-family: "Poppins", Arial, sans-serif;
+		font-weight: 600;	
+		font-size: 1.6em;
+		line-height: 0.5em;
+		text-transform: uppercase;
+		padding: (12/1920*100vw) (20/1920*100vw) (12/1920*100vw) (20/1920*100vw);
+		background-color: #fff !important;
+		border-radius: 11.41px;
+		color: #999999;
+		margin-left: (80/1920*100vw);
+		max-height: 35px;
+		align-self: center;
+		// position: absolute;
+		// right: -90px;
+		@media all and (max-width: 1000px) {
+			width: (49/367*100vw);
+			font-size: 0.90375em;
+			margin: (20/367*100vw) auto;
+		}
+	}
+	background: linear-gradient(to left, #e44067 0%, #662d89 100%);
+
+	// @media all and (min-width: 1001px) {
+	// 	display: none
+	// }
+	.the_input_element {
+		img {
+			margin: (50/1920*100vw) (115/1920*100vw) (50/1920*100vw) (50/1920*100vw);
+			    padding: 0 6.5104166667vw;
+		}
+	}
+
+	#nex-forms #_76516 .row button.btn, #nex-forms #_9056 .row button.btn {
+		margin-top: (25/1920*100vw) !important;
+	}
+
+	#nex-forms {
+		#_6029, #_29101 {
+			padding: 0;
+			@media all and (min-width: 1001px) {
+				width: (900/1920*100vw);
+				margin: 0 auto;
+				//padding-left: (420/1920*100vw);
+			}
+			@media all and (max-width: 1000px) {
+				padding: 0;
+			}
+		}
+
+		#_62390, #_75865 {
+			left: 0 !important;
+			top: 0 !important;
+			padding: 0 6.5104166667vw;
+		}
+		.intro-text {
+			display: flex;
+			align-items: center;
+			font-size: (16/1920*100vw);
+			.nex-text {
+				font-size: 2em;
+			}
+		}	
+	}
+}
+
+
+	<div class="mobile-form">
+		<?php NEXForms_ui_output(56,true); ?>
+	</div>
+
+
+
+#nex-forms {
+			#the-radios a {
+				border: 2px solid #666;
+			}
+			div.checkbox-group label a, div.radio-group label a {
+				top: (-2/1920*100vw);
+			}
+			.ui-nex-forms-container {
+				font-family: "Open Sans";
+			    font-weight: 700;
+			    color: #666666;
+			    font-size: (16/1920*100vw);
+
+			    textarea {
+			    	min-height: (80/1920*100vw);
+			    }
+			    input, select {
+			    	height: (42/1920*100vw) !important;
+			    	font-size: 1em;
+			    }
+			    .the_label {
+			    	font-family: "Open Sans";
+			    	font-weight: bold;
+			    	font-size: 1em;
+			    	line-height: 1.146875em;
+			    	text-align: left;
+			    	color: #666;
+
+			    }
+
+			    input[type="text"], #nex-forms .ui-nex-forms-container textarea.form-control, textarea.form-control {
+			    	border: none;
+			    	border-bottom: 1px solid #B3B3B3;
+			    }
+
+			    #_52409 {
+			    	margin-top: calc(20/1920*100vw);
+			    }
+
+			    .btn {
+			    	width: (191.83/1920*100vw);
+			    	height: (55.72/1920*100vw);
+			    	border-radius: 24.09px;
+			    	background: linear-gradient(to right, #e44067 0%, #662d89 100%);
+			    	font-family: "Poppins";
+			    	font-weight: 500;
+			    	font-size: 1.229375em !important;
+			    	line-height: 1.94625em;
+			    	text-align: center;
+			    	color: #fff;
+			    	position: relative;
+			    	top: (65/1920*100vw);
+			    }
+			    .submit-button .btn {
+			    	padding: (10/1920*100vw) (20/1920*100vw);
+			    }
+			    .input-inner {
+			    	margin-top: (20/1920*100vw); 
+			    	display: grid;
+		    	    grid-template-columns: 1fr 1fr;
+		    	    grid-row-gap: (20/1920*100vw);
+		    	    label:nth-of-type(7) {
+		    	    	grid-column-start: 1;
+	    	    	    grid-column-end: 3;
+		    	    }
+			    }
+			    .input-label {			    
+			    	font-family: "Open Sans";
+			    	font-weight: bold;
+			    	font-size: 1.1em;
+			    	line-height: 1.146875em;
+			    	text-align: left;
+			    	color: #666;
+
+			    }
+			    .form-heading {
+			    	display: flex;
+			    	justify-content: space-between;
+			    	margin-bottom: (55/1920*100vw);
+			    	h2 {
+			    		font-family: "Poppins";
+			    		font-weight: 600;
+			    		font-size: 2.3125em;
+			    		line-height: 1.5em;
+			    		text-align: left;
+			    		color: #91278d;
+			    		margin: 0;
+			    		span {
+			    			color: #ED5D60;
+			    		}
+			    	}
+			    	.free-button {
+			    		width: (94.44/1920*100vw);
+			    		//height: (56.29/1920*100vw);
+			    		border-radius: 19px;
+			    		border: 1px solid #e83b68;
+
+			    		p {
+			    			font-family: "Poppins";
+			    			font-weight: 600;
+			    			font-size: 1.6875em;
+			    			line-height: 1.08375em;
+			    			text-align: center;
+			    			color: #e83b68;
+			    			opacity: 0.79;
+			    			padding: (12/1920*100vw);
+
+			    		}
+			    	}
+			    }
+			}
+		}

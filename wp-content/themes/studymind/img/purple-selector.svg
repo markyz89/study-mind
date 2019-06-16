@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="272.249" height="73.998" viewBox="0 0 272.249 73.998">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#662d8e"/>
+      <stop offset="1" stop-color="#90278c"/>
+    </linearGradient>
+    <filter id="purple-selector-bg" x="0" y="0" width="272.249" height="73.998" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="purple-selector" transform="translate(-698.07 -548.783)">
+    <g transform="matrix(1, 0, 0, 1, 698.07, 548.78)" filter="url(#purple-selector-bg)">
+      <rect id="purple-selector-bg-2" data-name="purple-selector-bg" width="257.249" height="58.998" rx="20.499" transform="translate(7.5 7.5)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
